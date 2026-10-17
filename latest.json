@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "product": "ProFactura",
+  "version": "0.3.4",
+  "published": "2026-10-17T14:31:24.1442719Z",
+  "setup": "ProSync-Setup-0.3.4.exe",
+  "size": 61071336,
+  "sha256": "8328D7DCBFFAB1F2DBE839481A5BBB2B7B5F6D46AD16F42F6B59C566FD83950C",
+  "notes": [
+    {
+      "version": "0.3.4",
+      "date": "2026-10-17T00:00:00",
+      "lines": {
+        "en": [
+          "The lines for the production papers report save the drawings the papers have just made, inside and outside, also when a whole production is printed. Set the report up again (ProTrace \u003E Drawings) and paste the new lines in place of the old."
+        ],
+        "sq": [
+          "Rreshtat p\u00EBr raportin e letrave t\u00EB prodhimit ruajn\u00EB vizatimet q\u00EB letrat sapo b\u00EBn\u00EB, nga brenda dhe nga jasht\u00EB, edhe kur shtypet nj\u00EB prodhim i t\u00EBr\u00EB. P\u00EBrgatiteni s\u00EBrish raportin (ProTrace \u003E Vizatimet) dhe ngjitni rreshtat e rinj n\u00EB vend t\u00EB t\u00EB vjet\u00EBrve."
+        ],
+        "fr": [
+          "Les lignes du rapport des papiers de production enregistrent les dessins que les papiers viennent de faire, vus de l\u0027int\u00E9rieur et de l\u0027ext\u00E9rieur, aussi quand une production enti\u00E8re est imprim\u00E9e. Pr\u00E9parez de nouveau le rapport (ProTrace \u003E Dessins) et collez les nouvelles lignes \u00E0 la place des anciennes."
+        ]
+      }
+    },
+    {
+      "version": "0.3.3",
+      "date": "2026-10-17T00:00:00",
+      "lines": {
+        "en": [
+          "A production showing ProTrace\u0027s sketches says why: the production papers report is not set up yet (ProTrace \u003E Drawings), or this production\u0027s papers have not been printed since. The note under the positions no longer runs out of the window."
+        ],
+        "sq": [
+          "Nj\u00EB prodhim q\u00EB tregon skicat e ProTrace thot\u00EB pse: raporti i letrave t\u00EB prodhimit nuk \u00EBsht\u00EB p\u00EBrgatitur ende (ProTrace \u003E Vizatimet), ose letrat e k\u00EBtij prodhimi nuk jan\u00EB shtypur q\u00EB at\u00EBher\u00EB. Sh\u00EBnimi n\u00EBn pozicionet nuk del m\u00EB jasht\u00EB dritares."
+        ],
+        "fr": [
+          "Une production qui montre les croquis de ProTrace dit pourquoi : le rapport des papiers de production n\u0027est pas encore pr\u00E9par\u00E9 (ProTrace \u003E Dessins), ou les papiers de cette production n\u0027ont pas \u00E9t\u00E9 imprim\u00E9s depuis. La note sous les positions ne sort plus de la fen\u00EAtre."
+        ]
+      }
+    },
+    {
+      "version": "0.3.2",
+      "date": "2026-10-17T00:00:00",
+      "lines": {
+        "en": [
+          "ProTrace shows Ramasoft\u0027s own drawing of each position, as the production papers printed it: the papers\u0027 report saves it into ProSync\u0027s database. A click shows it large, inside and outside. Positions not printed yet keep the sketch.",
+          "ProTrace \u003E Drawings sets the report up once: a login that may only save drawings, and the lines to paste at the end of the report\u0027s post-script."
+        ],
+        "sq": [
+          "ProTrace tregon vizatimin e vet\u00EB Ramasoft p\u00EBr \u00E7do pozicion, si\u00E7 e shtyp\u00EBn letrat e prodhimit: raporti i letrave e ruan n\u00EB baz\u00EBn e ProSync. Nj\u00EB klikim e tregon t\u00EB madh, nga brenda dhe nga jasht\u00EB. Pozicionet ende t\u00EB pashtypura mbajn\u00EB skic\u00EBn.",
+          "ProTrace \u003E Vizatimet e p\u00EBrgatit raportin nj\u00EB her\u00EB: nj\u00EB hyrje q\u00EB mund vet\u00EBm t\u00EB ruaj\u00EB vizatime, dhe rreshtat q\u00EB ngjiten n\u00EB fund t\u00EB post-skriptit t\u00EB raportit."
+        ],
+        "fr": [
+          "ProTrace montre le dessin Ramasoft de chaque position, tel que les papiers de production l\u0027ont imprim\u00E9 : le rapport des papiers l\u0027enregistre dans la base de ProSync. Un clic l\u0027agrandit, vu de l\u0027int\u00E9rieur et de l\u0027ext\u00E9rieur. Les positions pas encore imprim\u00E9es gardent le croquis.",
+          "ProTrace \u003E Dessins pr\u00E9pare le rapport une fois : un login qui peut seulement enregistrer des dessins, et les lignes \u00E0 coller \u00E0 la fin du post-script du rapport."
+        ]
+      }
+    },
+    {
+      "version": "0.3.1",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "\u0027Main menu\u0027 at the top of the sidebar goes back to the choice between ProFactura and ProTrace, instead of switching straight to the other module.",
+          "The production screen\u0027s shortcut has an icon of its own: a blue monitor showing the board.",
+          "The Cut step shows a saw blade.",
+          "The language is chosen on the sign-in with three buttons - English, Shqip, Fran\u00E7ais - instead of a list."
+        ],
+        "sq": [
+          "\u0027Menuja kryesore\u0027 n\u00EB krye t\u00EB shiritit an\u00EBsor kthen te zgjedhja midis ProFactura dhe ProTrace, n\u00EB vend q\u00EB t\u00EB kaloj\u00EB drejtp\u00EBrdrejt te moduli tjet\u00EBr.",
+          "Shkurtorja e ekranit t\u00EB prodhimit ka ikon\u00EBn e vet: nj\u00EB monitor blu q\u00EB tregon tabel\u00EBn.",
+          "Hapi Prer\u00EB tregon nj\u00EB disk sharre.",
+          "Gjuha zgjidhet n\u00EB hyrje me tre butona - English, Shqip, Fran\u00E7ais - n\u00EB vend t\u00EB nj\u00EB liste."
+        ],
+        "fr": [
+          "\u00AB Menu principal \u00BB, en haut de la barre lat\u00E9rale, ram\u00E8ne au choix entre ProFactura et ProTrace, au lieu de passer directement \u00E0 l\u0027autre module.",
+          "Le raccourci de l\u0027\u00E9cran de production a sa propre ic\u00F4ne : un moniteur bleu qui montre le tableau.",
+          "L\u0027\u00E9tape D\u00E9coup\u00E9e montre une lame de scie.",
+          "La langue se choisit \u00E0 la connexion avec trois boutons - English, Shqip, Fran\u00E7ais - au lieu d\u0027une liste."
+        ]
+      }
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "ProFactura is now ProSync, with two modules: ProFactura for proformas and invoices, and the new ProTrace for production. One sign-in for both, on a new blue window; whoever may use both chooses one, and switches in one click.",
+          "ProTrace shows Ramasoft\u0027s validated productions as a board - Queue, Cut, Produced, Ready - first in, first out, with the one to take next marked NEXT, urgent ones first, and a red column for those waiting for material, glass or a panel.",
+          "A production opens with its positions as sketches, its history and big buttons to move it on, for those Ramasoft allows to modify all productions. Ramasoft itself is only read.",
+          "\u0027ProSync - Production screen\u0027 shows the board full screen on the workshop\u0027s screens, without signing in, refreshed every 30 seconds."
+        ],
+        "sq": [
+          "ProFactura tani quhet ProSync, me dy module: ProFactura p\u00EBr proforma dhe fatura, dhe ProTrace i ri p\u00EBr prodhimin. Nj\u00EB hyrje e vetme p\u00EBr t\u00EB dyja, n\u00EB nj\u00EB dritare t\u00EB re blu; kush mund t\u0027i p\u00EBrdor\u00EB t\u00EB dyja zgjedh nj\u00EBr\u00EBn dhe kalon te tjetra me nj\u00EB klikim.",
+          "ProTrace tregon prodhimet e v\u00EBrtetuara n\u00EB Ramasoft si tabel\u00EB - N\u00EB radh\u00EB, Prer\u00EB, Prodhuar, Gati - i pari q\u00EB hyn, i pari q\u00EB del, me at\u00EB q\u00EB merret m\u00EB pas t\u00EB sh\u00EBnuar TJETRI, urgjentet p\u00EBrpara, dhe nj\u00EB kolon\u00EB t\u00EB kuqe p\u00EBr ato q\u00EB presin material, xham ose panel.",
+          "Nj\u00EB prodhim hapet me pozicionet si skica, historikun dhe butona t\u00EB m\u00EBdhenj p\u00EBr ta l\u00EBvizur m\u00EB tej, p\u00EBr ata q\u00EB Ramasoft i lejon t\u00EB ndryshojn\u00EB t\u00EB gjitha prodhimet. Ramasoft vet\u00EBm lexohet.",
+          "\u0027ProSync - Production screen\u0027 e tregon tabel\u00EBn n\u00EB ekran t\u00EB plot\u00EB n\u00EB ekranet e pun\u00EBtoris\u00EB, pa hyrje, e rifreskuar \u00E7do 30 sekonda."
+        ],
+        "fr": [
+          "ProFactura s\u0027appelle d\u00E9sormais ProSync, avec deux modules : ProFactura pour les proformas et les factures, et le nouveau ProTrace pour la production. Une seule connexion pour les deux, dans une nouvelle fen\u00EAtre bleue ; qui peut utiliser les deux en choisit un, et passe \u00E0 l\u0027autre d\u0027un clic.",
+          "ProTrace pr\u00E9sente les productions valid\u00E9es dans Ramasoft sous forme de tableau - En attente, D\u00E9coup\u00E9e, Fabriqu\u00E9e, Pr\u00EAte - premier entr\u00E9, premier sorti, celle \u00E0 prendre ensuite marqu\u00E9e SUIVANTE, les urgentes d\u0027abord, et une colonne rouge pour celles qui attendent un mat\u00E9riau, un vitrage ou un panneau.",
+          "Une production s\u0027ouvre avec ses positions en croquis, son historique et de grands boutons pour la faire avancer, pour ceux que Ramasoft autorise \u00E0 modifier toutes les productions. Ramasoft est seulement lu.",
+          "\u00AB ProSync - Production screen \u00BB affiche le tableau en plein \u00E9cran sur les \u00E9crans de l\u0027atelier, sans connexion, actualis\u00E9 toutes les 30 secondes."
+        ]
+      }
+    },
+    {
+      "version": "0.2.3",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "ProFactura opens once per Windows session: clicking the icon again brings the open window to the front.",
+          "A user can be signed in at one place only. Signing in elsewhere says where the user already is, and \u0027Sign in here instead\u0027 signs the other window out.",
+          "Updates are offered on every window ProFactura opens with - also when it cannot reach its database - and checked again every two hours."
+        ],
+        "sq": [
+          "ProFactura hapet vet\u00EBm nj\u00EB her\u00EB p\u00EBr \u00E7do seanc\u00EB t\u00EB Windows: nj\u00EB klikim tjet\u00EBr mbi ikon\u00EB sjell p\u00EBrpara dritaren e hapur.",
+          "Nj\u00EB p\u00EBrdorues mund t\u00EB jet\u00EB i lidhur vet\u00EBm n\u00EB nj\u00EB vend. Kur hyn diku tjet\u00EBr, tregohet ku \u00EBsht\u00EB tashm\u00EB, dhe \u0027Hyr k\u00EBtu n\u00EB vend t\u00EB saj\u0027 e shk\u00EBput dritaren tjet\u00EBr.",
+          "P\u00EBrdit\u00EBsimet ofrohen n\u00EB \u00E7do dritare me t\u00EB cil\u00EBn hapet ProFactura - edhe kur nuk arrin baz\u00EBn e t\u00EB dh\u00EBnave - dhe kontrollohen s\u00EBrish \u00E7do dy or\u00EB."
+        ],
+        "fr": [
+          "ProFactura ne s\u0027ouvre qu\u0027une fois par session Windows : un nouveau clic sur l\u0027ic\u00F4ne ram\u00E8ne la fen\u00EAtre ouverte au premier plan.",
+          "Un utilisateur ne peut \u00EAtre connect\u00E9 qu\u0027\u00E0 un seul endroit. En se connectant ailleurs, on voit o\u00F9 il est d\u00E9j\u00E0 connect\u00E9, et \u00AB Se connecter ici \u00E0 la place \u00BB d\u00E9connecte l\u0027autre fen\u00EAtre.",
+          "Les mises \u00E0 jour sont propos\u00E9es dans chaque fen\u00EAtre \u00E0 l\u0027ouverture de ProFactura - m\u00EAme quand il n\u0027atteint pas sa base de donn\u00E9es - et v\u00E9rifi\u00E9es de nouveau toutes les deux heures."
+        ]
+      }
+    },
+    {
+      "version": "0.2.2",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "The manufacturer now comes from Ramasoft: the company its workshop belongs to (Installation, Ateliers, Soci\u00E9t\u00E9 par d\u00E9faut). Its documents to customers abroad are export documents: two languages, DoP, origin declaration, truck plates."
+        ],
+        "sq": [
+          "Prodhuesi tani merret nga Ramasoft: kompania s\u00EB cil\u00EBs i p\u00EBrket pun\u00EBtoria (Installation, Ateliers, Soci\u00E9t\u00E9 par d\u00E9faut). Dokumentet e saj p\u00EBr klient\u00EBt jasht\u00EB vendit jan\u00EB dokumente eksporti: dy gjuh\u00EB, DoP, deklarata e origjin\u00EBs, targat e kamionit."
+        ],
+        "fr": [
+          "Le fabricant vient d\u00E9sormais de Ramasoft : la soci\u00E9t\u00E9 \u00E0 laquelle appartient son atelier (Installation, Ateliers, Soci\u00E9t\u00E9 par d\u00E9faut). Ses documents pour les clients \u00E0 l\u0027\u00E9tranger sont des documents d\u0027export : deux langues, DoP, d\u00E9claration d\u0027origine, plaques du camion."
+        ]
+      }
+    },
+    {
+      "version": "0.2.1",
+      "date": "2026-10-15T00:00:00",
+      "lines": {
+        "en": [
+          "A new look: New proforma step by step, a clear next step on every document, and \u0027Convert proforma to invoice\u0027 as its own window.",
+          "Extra lines: services and anything not in Ramasoft, until the first payment.",
+          "Export any document to Excel.",
+          "Swiss companies always invoice in CHF; branches (same VAT number) issue under their main company.",
+          "ProFactura now updates itself: a new version is offered when you sign in.",
+          "Correction of the language translation"
+        ],
+        "sq": [
+          "Pamje e re: proforma e re hap pas hapi, hapi i radh\u00EBs i qart\u00EB n\u00EB \u00E7do dokument, dhe \u0027Konverto proform\u00EBn n\u00EB fatur\u00EB\u0027 n\u00EB dritaren e vet.",
+          "Rreshta shtes\u00EB: sh\u00EBrbime dhe \u00E7do gj\u00EB q\u00EB nuk \u00EBsht\u00EB n\u00EB Ramasoft, deri n\u00EB pages\u00EBn e par\u00EB.",
+          "Eksporto \u00E7do dokument n\u00EB Excel.",
+          "Kompanit\u00EB zvicerane faturojn\u00EB gjithmon\u00EB n\u00EB CHF; deg\u00EBt (i nj\u00EBjti num\u00EBr TVSH) l\u00EBshojn\u00EB n\u00EBn kompanin\u00EB kryesore.",
+          "ProFactura tani p\u00EBrdit\u00EBsohet vet\u00EB: versioni i ri ofrohet kur hyni.",
+          "Korrigjimi i p\u00EBrkthimit t\u00EB gjuh\u00EBs"
+        ],
+        "fr": [
+          "Nouvelle pr\u00E9sentation : nouvelle proforma \u00E9tape par \u00E9tape, l\u0027\u00E9tape suivante bien visible sur chaque document, et \u00AB Convertir la proforma en facture \u00BB dans sa propre fen\u00EAtre.",
+          "Lignes suppl\u00E9mentaires : prestations et tout ce qui n\u0027est pas dans Ramasoft, jusqu\u0027au premier paiement.",
+          "Export de tout document vers Excel.",
+          "Les soci\u00E9t\u00E9s suisses facturent toujours en CHF ; les \u00E9tablissements (m\u00EAme num\u00E9ro de TVA) \u00E9mettent sous leur soci\u00E9t\u00E9 principale.",
+          "ProFactura se met d\u00E9sormais \u00E0 jour tout seul : la nouvelle version est propos\u00E9e \u00E0 la connexion.",
+          "Correction de la traduction"
+        ]
+      }
+    }
+  ],
+  "latestVersion": "0.3.4"
+}

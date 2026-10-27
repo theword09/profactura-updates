@@ -1,0 +1,993 @@
+{
+  "format": 1,
+  "product": "ProFactura",
+  "version": "1.30.0",
+  "published": "2026-10-27T15:36:43.0811628Z",
+  "setup": "ProSync-Setup-1.30.0.exe",
+  "size": 63966049,
+  "sha256": "D4E1516EF298A2DC95EAAF883E84DA1CFEC2F36B77A9DF152913B790B6D1EA9D",
+  "notes": [
+    {
+      "version": "1.30.0",
+      "date": "2026-10-27T00:00:00",
+      "lines": {
+        "en": [
+          "The quote\u0027s discount on the proforma and the invoice, as Ramasoft\u0027s devis prints it: every discounted window shows its gross price, the percent taken off and the net, and the totals open with the gross total and what the discount took off - on the PDF, in the Excel and in the document\u0027s window. A document without a discount prints as before.",
+          "Schema 26: the line keeps the gross price. Documents made before this version show no discount; the ones made from now on do."
+        ],
+        "sq": [
+          "Zbritja e ofert\u00EBs n\u00EB proform\u00EB dhe n\u00EB fatur\u00EB, si\u00E7 e shtyp devisi i Ramasoft: \u00E7do dritare me zbritje tregon \u00E7mimin bruto, p\u00EBrqindjen e hequr dhe neton, dhe totalet hapen me totalin bruto dhe sa hoqi zbritja - n\u00EB PDF, n\u00EB Excel dhe n\u00EB dritaren e dokumentit. Nj\u00EB dokument pa zbritje shtypet si m\u00EB par\u00EB.",
+          "Skema 26: rreshti ruan \u00E7mimin bruto. Dokumentet e b\u00EBra para k\u00EBtij versioni nuk tregojn\u00EB zbritje; ato q\u00EB b\u00EBhen tani e tutje po."
+        ],
+        "fr": [
+          "La remise du devis sur la proforma et la facture, telle que le devis Ramasoft l\u0027imprime : chaque fen\u00EAtre remis\u00E9e affiche son prix brut, le pourcentage retir\u00E9 et le net, et les totaux s\u0027ouvrent sur le total brut et ce que la remise a retir\u00E9 - sur le PDF, dans l\u0027Excel et dans la fen\u00EAtre du document. Un document sans remise s\u0027imprime comme avant.",
+          "Sch\u00E9ma 26 : la ligne garde le prix brut. Les documents faits avant cette version n\u0027affichent pas de remise ; ceux faits \u00E0 partir de maintenant, oui."
+        ]
+      }
+    },
+    {
+      "version": "1.29.3",
+      "date": "2026-10-27T00:00:00",
+      "lines": {
+        "en": [
+          "One A4 notice on every window in place of the stickers: SAV \u003E Notice prints it on plain paper in the customers\u0027 language - the QR code and the address, what the customer needs (the project or phase number and the delivery postcode from their delivery note), how it goes in four steps, how long they have for what is seen at delivery and for the rest, and what happens next. One copy per window."
+        ],
+        "sq": [
+          "Nj\u00EB njoftim A4 n\u00EB \u00E7do dritare n\u00EB vend t\u00EB ngjit\u00EBseve: SAV \u003E Njoftimi e shtyp n\u00EB let\u00EBr t\u00EB thjesht\u00EB n\u00EB gjuh\u00EBn e klient\u00EBve - kodin QR dhe adres\u00EBn, \u00E7far\u00EB i duhet klientit (numrin e projektit ose t\u00EB faz\u00EBs dhe kodin postar t\u00EB dor\u00EBzimit nga flet\u00EBdor\u00EBzimi), si shkon n\u00EB kat\u00EBr hapa, sa koh\u00EB ka p\u00EBr at\u00EB q\u00EB shihet n\u00EB dor\u00EBzim dhe p\u00EBr pjes\u00EBn tjet\u00EBr, dhe \u00E7far\u00EB ndodh m\u00EB pas. Nj\u00EB kopje p\u00EBr dritare."
+        ],
+        "fr": [
+          "Un avis A4 sur chaque fen\u00EAtre \u00E0 la place des autocollants : SAV \u003E Avis l\u0027imprime sur papier ordinaire dans la langue des clients - le code QR et l\u0027adresse, ce qu\u0027il faut au client (le num\u00E9ro de projet ou de phase et le code postal de livraison de son bon de livraison), comment \u00E7a se passe en quatre \u00E9tapes, combien de temps il a pour ce qui se voit \u00E0 la livraison et pour le reste, et la suite. Un exemplaire par fen\u00EAtre."
+        ]
+      }
+    },
+    {
+      "version": "1.29.2",
+      "date": "2026-10-26T00:00:00",
+      "lines": {
+        "en": [
+          "On the public form the customer ticks every window concerned in one go: each becomes a claim of its own in SAV, with the same words, photos and reporter. The project\u0027s number stands in bold at the top, and every window carries the number of its phase.",
+          "The box must be updated too: run installer\\sav-box\\deploy.ps1 again from the PC."
+        ],
+        "sq": [
+          "N\u00EB formularin publik klienti sh\u00EBnon nj\u00EBher\u00EBsh t\u00EB gjitha dritaret q\u00EB prek: secila b\u00EBhet nj\u00EB reklamim m\u00EB vete n\u00EB SAV, me t\u00EB nj\u00EBjtat fjal\u00EB, fotografi dhe raportues. Numri i projektit q\u00EBndron me shkronja t\u00EB trasha n\u00EB krye, dhe \u00E7do dritare mban numrin e faz\u00EBs s\u00EB saj.",
+          "Edhe kutia duhet p\u00EBrdit\u00EBsuar: ekzekutoni s\u00EBrish installer\\sav-box\\deploy.ps1 nga PC-ja."
+        ],
+        "fr": [
+          "Sur le formulaire public, le client coche d\u0027un coup toutes les fen\u00EAtres concern\u00E9es : chacune devient une r\u00E9clamation \u00E0 part enti\u00E8re dans le SAV, avec les m\u00EAmes mots, photos et d\u00E9clarant. Le num\u00E9ro du projet s\u0027affiche en gras en t\u00EAte, et chaque fen\u00EAtre porte le num\u00E9ro de sa phase.",
+          "La bo\u00EEte doit aussi \u00EAtre mise \u00E0 jour : relancez installer\\sav-box\\deploy.ps1 depuis le PC."
+        ]
+      }
+    },
+    {
+      "version": "1.29.1",
+      "date": "2026-10-26T00:00:00",
+      "lines": {
+        "en": [
+          "The public form shows each window\u0027s drawing - the one the papers saved - beside its words: ProSync sends the box the pictures it lacks, 150 a round, after every index push. A claim takes up to four photos.",
+          "The box must be updated too: run installer\\sav-box\\deploy.ps1 again from the PC; the data and the secret stay."
+        ],
+        "sq": [
+          "Formulari publik tregon vizatimin e \u00E7do dritareje - at\u00EB q\u00EB ruajt\u00EBn letrat - pran\u00EB fjal\u00EBve t\u00EB saj: ProSync i d\u00EBrgon kutis\u00EB fotografit\u00EB q\u00EB i mungojn\u00EB, 150 p\u00EBr raund, pas \u00E7do d\u00EBrgimi t\u00EB indeksit. Nj\u00EB reklamim merr deri n\u00EB kat\u00EBr fotografi.",
+          "Edhe kutia duhet p\u00EBrdit\u00EBsuar: ekzekutoni s\u00EBrish installer\\sav-box\\deploy.ps1 nga PC-ja; t\u00EB dh\u00EBnat dhe sekreti mbeten."
+        ],
+        "fr": [
+          "Le formulaire public affiche le dessin de chaque fen\u00EAtre - celui que les papiers ont enregistr\u00E9 - \u00E0 c\u00F4t\u00E9 de ses mots : ProSync envoie \u00E0 la bo\u00EEte les images qui lui manquent, 150 par tour, apr\u00E8s chaque envoi de l\u0027index. Une r\u00E9clamation accepte jusqu\u0027\u00E0 quatre photos.",
+          "La bo\u00EEte doit aussi \u00EAtre mise \u00E0 jour : relancez installer\\sav-box\\deploy.ps1 depuis le PC ; les donn\u00E9es et le secret restent."
+        ]
+      }
+    },
+    {
+      "version": "1.29.0",
+      "date": "2026-10-26T00:00:00",
+      "lines": {
+        "en": [
+          "The SAV sticker leads somewhere: on sav.roshgroup.eu the customer types the project or phase number and the delivery postcode from their delivery note, sees their windows with their drawings, picks one, says what is wrong, adds photos and their e-mail - and within minutes the claim is in SAV, numbered, judged, told by mail, with a copy to them. In French, English, Albanian and German.",
+          "The box on the server knows nobody: ProSync pushes it the delivered projects as hashed keys with the windows behind them - no names, no addresses, no prices - and brings the claims in. Everything goes out from the workshop; nothing reaches in.",
+          "SAV \u003E Rules and people \u003E The public form\u0027s box: type the secret the set-up printed once and keep it on this PC; that PC syncs every two minutes, Sync now does a round by hand, and the page says what the last round did.",
+          "The ProTrace dashboard\u0027s glazing and panels are named as Ramasoft\u0027s Description1: the other language slots hold the DoP\u0027s declaration number."
+        ],
+        "sq": [
+          "Ngjit\u00EBsja e SAV \u00E7on diku: n\u00EB sav.roshgroup.eu klienti shkruan numrin e projektit ose t\u00EB faz\u00EBs dhe kodin postar t\u00EB dor\u00EBzimit nga flet\u00EBdor\u00EBzimi, sheh dritaret e tij me vizatimet e tyre, zgjedh nj\u00EBr\u00EBn, thot\u00EB \u00E7far\u00EB nuk shkon, shton fotografi dhe e-mailin - dhe brenda pak minutash reklamimi \u00EBsht\u00EB n\u00EB SAV, i num\u00EBruar, i gjykuar, i njoftuar me e-mail, me nj\u00EB kopje p\u00EBr t\u00EB. N\u00EB fr\u00EBngjisht, anglisht, shqip dhe gjermanisht.",
+          "Kutia n\u00EB server nuk njeh ask\u00EBnd: ProSync i d\u00EBrgon projektet e dor\u00EBzuara si \u00E7el\u00EBsa t\u00EB hash-uar me dritaret pas tyre - pa emra, pa adresa, pa \u00E7mime - dhe sjell reklamimet. Gjith\u00E7ka del nga punishtja; asgj\u00EB nuk hyn.",
+          "SAV \u003E Rregullat dhe personat \u003E Kutia e formularit publik: shkruani sekretin q\u00EB instalimi e shtypi nj\u00EB her\u00EB dhe ruajeni n\u00EB k\u00EBt\u00EB PC; ai PC sinkronizon \u00E7do dy minuta, Sinkronizo tani b\u00EBn nj\u00EB raund me dor\u00EB, dhe faqja thot\u00EB \u00E7far\u00EB b\u00EBri raundi i fundit.",
+          "Xhamat dhe panelet n\u00EB panelin e ProTrace em\u00EBrtohen me Description1 t\u00EB Ramasoft: fushat e gjuh\u00EBve t\u00EB tjera mbajn\u00EB numrin e deklarat\u00EBs DoP."
+        ],
+        "fr": [
+          "L\u0027autocollant SAV m\u00E8ne quelque part : sur sav.roshgroup.eu, le client saisit le num\u00E9ro de projet ou de phase et le code postal de livraison de son bon de livraison, voit ses fen\u00EAtres avec leurs dessins, en choisit une, dit ce qui ne va pas, ajoute des photos et son e-mail - et en quelques minutes la r\u00E9clamation est dans le SAV, num\u00E9rot\u00E9e, jug\u00E9e, annonc\u00E9e par e-mail, avec une copie pour lui. En fran\u00E7ais, anglais, albanais et allemand.",
+          "La bo\u00EEte sur le serveur ne conna\u00EEt personne : ProSync lui pousse les projets livr\u00E9s sous forme de cl\u00E9s hach\u00E9es avec les fen\u00EAtres derri\u00E8re - ni noms, ni adresses, ni prix - et rapatrie les r\u00E9clamations. Tout sort de l\u0027atelier ; rien n\u0027y entre.",
+          "SAV \u003E R\u00E8gles et personnes \u003E La bo\u00EEte du formulaire public : saisissez le secret que l\u0027installation a affich\u00E9 une fois et gardez-le sur ce PC ; ce PC synchronise toutes les deux minutes, Synchroniser maintenant fait un tour \u00E0 la main, et la page dit ce qu\u0027a fait le dernier tour.",
+          "Le vitrage et les panneaux du tableau de bord ProTrace portent la Description1 de Ramasoft : les autres cases de langue contiennent le num\u00E9ro de d\u00E9claration DoP."
+        ]
+      }
+    },
+    {
+      "version": "1.28.0",
+      "date": "2026-10-26T00:00:00",
+      "lines": {
+        "en": [
+          "ProFactura has a dashboard, for administrators: over a period, the open proformas and what is still to come in, the invoices and what they come to, what was paid - and behind every document, from Ramasoft\u0027s quote, the bruto, the discount, the totals excl. and incl. VAT. The general administrator sees Ramasoft\u0027s cost and the margin too. Three lines by month, the customers invoiced as bars, and the documents themselves, filtered as you type - and the whole of it printed to PDF or exported to Excel.",
+          "Both dashboards read over this month, the last 3, 6 or 12 months, this year, last year - or two days of your own.",
+          "The window families\u0027 money, corrected: every price detail of a position counts now - the construction, the glass, the hardware, each supplement - not the fixed windows\u0027 main detail alone. The ProTrace dashboard\u0027s sold-for matches the invoices, and says what the discounts came to.",
+          "The articles with what they were bought for: hardware, accessories, glazing and panels, each with the net price each and the net total from Ramasoft\u0027s parts lists - on the screen, the print and the Excel. Where the board follows our own driver alone, so does the dashboard."
+        ],
+        "sq": [
+          "ProFactura ka nj\u00EB panel, p\u00EBr administrator\u00EBt: p\u00EBr nj\u00EB periudh\u00EB, proformat e hapura dhe sa mbetet p\u00EBr t\u0027u ark\u00EBtuar, faturat dhe sa b\u00EBjn\u00EB, \u00E7far\u00EB u pagua - dhe pas \u00E7do dokumenti, nga oferta e Ramasoft, brutoja, zbritja, totalet pa dhe me TVSH. Administratori i p\u00EBrgjithsh\u00EBm sheh edhe koston e Ramasoft dhe marzhin. Tri vija muaj pas muaji, klient\u00EBt e faturuar si shtylla, dhe vet\u00EB dokumentet, t\u00EB filtruara nd\u00EBrsa shkruani - dhe e gjitha printohet n\u00EB PDF ose eksportohet n\u00EB Excel.",
+          "T\u00EB dy panelet lexohen p\u00EBr k\u00EBt\u00EB muaj, 3, 6 ose 12 muajt e fundit, k\u00EBt\u00EB vit, vitin e kaluar - ose p\u00EBr dy dit\u00EB t\u00EB zgjedhura nga ju.",
+          "Parat\u00EB e familjeve t\u00EB dritareve, t\u00EB korrigjuara: tani llogaritet \u00E7do detaj \u00E7mimi i nj\u00EB pozicioni - konstruksioni, xhami, mekanizmat, \u00E7do shtes\u00EB - jo vet\u00EBm detaji kryesor i dritareve fikse. Shitja n\u00EB panelin e ProTrace p\u00EBrputhet me faturat dhe tregon sa b\u00EBn\u00EB zbritjet.",
+          "Artikujt me sa u blen\u00EB: mekanizmat, aksesor\u00EBt, xhamat dhe panelet, secili me \u00E7mimin neto p\u00EBr cop\u00EB dhe totalin neto nga listat e pjes\u00EBve t\u00EB Ramasoft - n\u00EB ekran, n\u00EB printim dhe n\u00EB Excel. Ku tabela ndjek vet\u00EBm drajverin ton\u00EB, ashtu b\u00EBn edhe paneli."
+        ],
+        "fr": [
+          "ProFactura a un tableau de bord, pour les administrateurs : sur une p\u00E9riode, les proformas ouvertes et ce qui reste \u00E0 encaisser, les factures et ce qu\u0027elles totalisent, ce qui a \u00E9t\u00E9 pay\u00E9 - et derri\u00E8re chaque document, d\u0027apr\u00E8s le devis Ramasoft, le brut, la remise, les totaux HT et TTC. L\u0027administrateur g\u00E9n\u00E9ral voit aussi le co\u00FBt Ramasoft et la marge. Trois courbes par mois, les clients factur\u00E9s en barres, et les documents eux-m\u00EAmes, filtr\u00E9s au fil de la frappe - et l\u0027ensemble s\u0027imprime en PDF ou s\u0027exporte vers Excel.",
+          "Les deux tableaux de bord se lisent sur ce mois, les 3, 6 ou 12 derniers mois, cette ann\u00E9e, l\u0027an dernier - ou deux jours de votre choix.",
+          "L\u0027argent des familles de fen\u00EAtres, corrig\u00E9 : chaque d\u00E9tail de prix d\u0027une position compte d\u00E9sormais - la construction, le vitrage, le ferrage, chaque suppl\u00E9ment - et non plus le seul d\u00E9tail principal des ch\u00E2ssis fixes. Le vendu du tableau de bord ProTrace concorde avec les factures, et dit ce que les remises ont repr\u00E9sent\u00E9.",
+          "Les articles avec leur prix d\u0027achat : ferrage, accessoires, vitrage et panneaux, chacun avec le net l\u0027unit\u00E9 et le net total d\u0027apr\u00E8s les nomenclatures Ramasoft - \u00E0 l\u0027\u00E9cran, \u00E0 l\u0027impression et dans l\u0027Excel. L\u00E0 o\u00F9 le tableau ne suit que notre propre pilote, le tableau de bord fait de m\u00EAme."
+        ]
+      }
+    },
+    {
+      "version": "1.27.0",
+      "date": "2026-10-26T00:00:00",
+      "lines": {
+        "en": [
+          "A third module on the main menu: SAV, the after-sales claims. Whoever handles them signs in and finds only that; administrators are in by right, anyone else is named by their Ramasoft login on the module\u0027s Rules and people page.",
+          "A claim: what is wrong - glass broken, damaged, missing, wrong item, does not work - on which window of which production, who reported it and when, their words, their photos. Numbered SAV-26-0001, never deleted: new, accepted, refused with the reason, closed, reopened - every move kept as it happened.",
+          "Judged by the delivery the pallets recorded: the claim shows delivered on, reported on, the days between, and whether that is inside the window - a few days for what is seen at delivery, the guarantee for faults and hidden defects, both settings. ProSync counts; you decide.",
+          "The office is told of every new claim by e-mail and the reporter gets a copy; the Stickers page prints the QR codes that send customers to the public form, and every delivery note says how long they have."
+        ],
+        "sq": [
+          "Nj\u00EB modul i tret\u00EB n\u00EB menun\u00EB kryesore: SAV, reklamimet pas shitjes. Kush i trajton hyn dhe gjen vet\u00EBm at\u00EB; administrator\u00EBt hyjn\u00EB me t\u00EB drejt\u00EB, kushdo tjet\u00EBr em\u00EBrohet me p\u00EBrdoruesin e tij t\u00EB Ramasoft n\u00EB faqen Rregullat dhe personat t\u00EB modulit.",
+          "Nj\u00EB reklamim: \u00E7far\u00EB nuk shkon - xham i thyer, i d\u00EBmtuar, mungon, artikull i gabuar, nuk funksionon - n\u00EB cil\u00EBn dritare t\u00EB cilit prodhim, kush e raportoi dhe kur, fjal\u00EBt e tij, fotot e tij. Num\u00EBruar SAV-26-0001, asnj\u00EBher\u00EB i fshir\u00EB: i ri, pranuar, refuzuar me arsyen, mbyllur, rihapur - \u00E7do hap ruhet si\u00E7 ndodhi.",
+          "Gjykuar sipas dor\u00EBzimit q\u00EB regjistruan paletat: reklamimi tregon dor\u00EBzuar m\u00EB, raportuar m\u00EB, dit\u00EBt nd\u00EBrmjet, dhe n\u00EBse kjo \u00EBsht\u00EB brenda afatit - pak dit\u00EB p\u00EBr at\u00EB q\u00EB shihet n\u00EB dor\u00EBzim, garancia p\u00EBr defektet dhe t\u00EB metat e fshehura, t\u00EB dyja cil\u00EBsime. ProSync num\u00EBron; ju vendosni.",
+          "Zyra njoftohet me e-mail p\u00EBr \u00E7do reklamim t\u00EB ri dhe raportuesi merr nj\u00EB kopje; faqja Ngjit\u00EBset shtyp kodet QR q\u00EB i \u00E7ojn\u00EB klient\u00EBt te formulari publik, dhe \u00E7do flet\u00EBdor\u00EBzim thot\u00EB sa koh\u00EB kan\u00EB."
+        ],
+        "fr": [
+          "Un troisi\u00E8me module au menu principal : SAV, les r\u00E9clamations apr\u00E8s-vente. Qui les traite se connecte et ne trouve que cela ; les administrateurs y ont acc\u00E8s de droit, toute autre personne est nomm\u00E9e par son identifiant Ramasoft sur la page R\u00E8gles et personnes du module.",
+          "Une r\u00E9clamation : ce qui ne va pas - vitrage cass\u00E9, endommag\u00E9, manquant, mauvais article, ne fonctionne pas - sur quelle fen\u00EAtre de quelle production, qui l\u0027a signal\u00E9e et quand, ses mots, ses photos. Num\u00E9rot\u00E9e SAV-26-0001, jamais supprim\u00E9e : nouvelle, accept\u00E9e, refus\u00E9e avec la raison, cl\u00F4tur\u00E9e, rouverte - chaque \u00E9tape conserv\u00E9e telle qu\u0027elle a eu lieu.",
+          "Jug\u00E9e d\u0027apr\u00E8s la livraison enregistr\u00E9e par les palettes : la r\u00E9clamation montre livr\u00E9 le, signal\u00E9 le, les jours entre, et si c\u0027est dans le d\u00E9lai - quelques jours pour ce qui se voit \u00E0 la livraison, la garantie pour les pannes et vices cach\u00E9s, tous deux r\u00E9glables. ProSync compte ; vous d\u00E9cidez.",
+          "Le bureau est pr\u00E9venu par e-mail de chaque nouvelle r\u00E9clamation et le d\u00E9clarant re\u00E7oit une copie ; la page Autocollants imprime les codes QR qui envoient les clients vers le formulaire public, et chaque bon de livraison dit de combien de temps ils disposent."
+        ]
+      }
+    },
+    {
+      "version": "1.26.0",
+      "date": "2026-10-23T00:00:00",
+      "lines": {
+        "en": [
+          "A sixth column on the board: Dispatched - the pallets out on a truck, each with what rides on it, whose it is and how long it has been out. Open one for its journey and the three words that end a trip: Delivered, Turned back, Unloaded. Delivered moves its productions on and sends it to the Delivered record; the other two put it back at the palletization.",
+          "The line\u0027s order is kept: a window is refused at a station until it has passed every station the workshop has before it - nothing goes from the saw straight to the pallet with the welding, the hardware and the glass never recorded. The station says which step is missing. The hardware station stays free to work before every sash is welded and cleaned, and the rule can be let go on the Sent to the machine page.",
+          "ProTrace can follow ProSync\u0027s Kaban driver alone: only the productions whose file it sent are on the board - nothing made in Ramasoft before, nothing another driver sent. Nothing is deleted, and the switch turns back at any time; it sits beside the queue switch on Sent to the machine and is turned on once."
+        ],
+        "sq": [
+          "Nj\u00EB kolon\u00EB e gjasht\u00EB n\u00EB tabel\u00EB: Lifteruar - paletat jasht\u00EB me kamion, secila me \u00E7far\u00EB hip\u00EBn mbi t\u00EB, e kujt \u00EBsht\u00EB dhe sa gjat\u00EB ka qen\u00EB jasht\u00EB. Hapeni nj\u00EB p\u00EBr udh\u00EBtimin e saj dhe tri fjal\u00EBt q\u00EB mbyllin nj\u00EB udh\u00EBtim: Dor\u00EBzuar, Kthyer mbrapa, Shkarkuar. Dor\u00EBzimi i \u00E7on prodhimet e saj p\u00EBrpara dhe e d\u00EBrgon te regjistri i Dor\u00EBzuar; dy t\u00EB tjerat e kthejn\u00EB te paletizimi.",
+          "Radha e linj\u00EBs ruhet: nj\u00EB dritare refuzohet n\u00EB nj\u00EB stacion derisa t\u00EB ket\u00EB kaluar \u00E7do stacion q\u00EB ka atelieri para tij - asgj\u00EB s\u0027shkon nga sharra drejt te paleta pa u regjistruar kurr\u00EB salduarja, mekanizmat dhe xhami. Stacioni thot\u00EB cili hap mungon. Stacioni i mekanizmave mbetet i lir\u00EB t\u00EB punoj\u00EB para se \u00E7do krah t\u00EB jet\u00EB salduar e pastruar, dhe rregulli mund t\u00EB lihet n\u00EB faqen D\u00EBrguar te makina.",
+          "ProTrace mund t\u00EB ndjek\u00EB vet\u00EBm drajverin Kaban t\u00EB ProSync-ut: mbi tabel\u00EB jan\u00EB vet\u00EBm prodhimet, skedarin e t\u00EB cilave e d\u00EBrgoi ai - asgj\u00EB e b\u00EBr\u00EB n\u00EB Ramasoft m\u00EB par\u00EB, asgj\u00EB e d\u00EBrguar nga nj\u00EB drajver tjet\u00EBr. Asgj\u00EB nuk fshihet, dhe \u00E7el\u00EBsi kthehet n\u00EB \u00E7do koh\u00EB; \u00EBsht\u00EB i ndezur vetvetiu aty ku radha nis tashm\u00EB te makina."
+        ],
+        "fr": [
+          "Une sixi\u00E8me colonne au tableau : Exp\u00E9di\u00E9es - les palettes parties en camion, chacune avec ce qui voyage dessus, \u00E0 qui elle est et depuis combien de temps elle est sortie. Ouvrez-en une pour son trajet et les trois mots qui le terminent : Livr\u00E9e, Retourn\u00E9e, D\u00E9charg\u00E9e. La livraison fait avancer ses productions et l\u0027envoie au registre des Livr\u00E9es ; les deux autres la ram\u00E8nent \u00E0 la palettisation.",
+          "L\u0027ordre de la ligne est tenu : une fen\u00EAtre est refus\u00E9e \u00E0 un poste tant qu\u0027elle n\u0027est pas pass\u00E9e par chaque poste que l\u0027atelier poss\u00E8de avant lui - rien ne va de la scie droit \u00E0 la palette sans que la soudure, la ferrure et le vitrage soient jamais enregistr\u00E9s. Le poste dit quelle \u00E9tape manque. Le poste de ferrure reste libre de travailler avant que chaque ouvrant soit soud\u00E9 et \u00E9bavur\u00E9, et la r\u00E8gle peut \u00EAtre rel\u00E2ch\u00E9e sur la page Envoy\u00E9 \u00E0 la machine.",
+          "ProTrace peut suivre le seul driver Kaban de ProSync : seules les productions dont il a envoy\u00E9 le fichier sont au tableau - rien de fait dans Ramasoft avant, rien envoy\u00E9 par un autre driver. Rien n\u0027est supprim\u00E9, et l\u0027interrupteur se d\u00E9fait \u00E0 tout moment ; il est actif de lui-m\u00EAme l\u00E0 o\u00F9 la file part d\u00E9j\u00E0 de la machine."
+        ]
+      }
+    },
+    {
+      "version": "1.25.0",
+      "date": "2026-10-23T00:00:00",
+      "lines": {
+        "en": [
+          "Scan a code, first in ProTrace\u0027s sidebar: anything ProSync printed opens what it belongs to - a piece\u0027s label opens its production with that window ringed, however old it is; a pallet\u0027s sheet opens the pallet; a package\u0027s label opens its package; a badge says whose it is.",
+          "The pallet travels by its cards: DISPATCHED, DELIVERED, TURNED BACK and UNLOADED are scanned, then the pallet\u0027s QR code on its sheet. Delivered closes its journey - and a production whose every palletized window is at the customer\u0027s moves on to Delivered by itself; turned back and unloaded bring it home to wait for the next truck. Every step is kept.",
+          "Accessory packages ride on the pallet: at the palletization, a closed package\u0027s label loads it onto the chosen pallet, and it then rides on the sheet, shows in ProTrace and opens from its own code.",
+          "The pallet\u0027s sheet prints each window\u0027s drawing beside its line and lists the packages under them; the Pallets page shows the same, with where each pallet stands and its journey.",
+          "Delivered keeps its record: a period (this month, this year, last year, the last 12 months, everything, or two days by hand), a search over productions, customers and pallet numbers, four figures above, and the pallets delivered listed under the productions.",
+          "The dashboard\u0027s money is corrected: a position\u0027s price is for all its windows, so each production now takes its share - the price per window times the windows it includes. The page leads with the production price and adds the production price per window; Print... makes an A4 landscape PDF and Excel... a landscape workbook, both with every month, family and article."
+        ],
+        "sq": [
+          "Skano nj\u00EB kod, i pari n\u00EB shiritin an\u00EBsor t\u00EB ProTrace: \u00E7far\u00EBdo q\u00EB ka shtypur ProSync hap at\u00EB q\u00EB i p\u00EBrket - etiketa e nj\u00EB cope hap prodhimin e saj me at\u00EB dritare t\u00EB rrethuar, sado i vjet\u00EBr; fleta e nj\u00EB palete hap palet\u00EBn; etiketa e nj\u00EB paketimi hap paketimin; nj\u00EB distinktiv thot\u00EB i kujt \u00EBsht\u00EB.",
+          "Paleta udh\u00EBton me kartat e saj: LIFTERUAR, DOR\u00CBZUAR, KTHYER MBRAPA dhe SHKARKUAR skanohen, pastaj kodi QR i palet\u00EBs n\u00EB flet\u00EBn e saj. Dor\u00EBzimi mbyll udh\u00EBtimin e saj - dhe nj\u00EB prodhim t\u00EB cilit \u00E7do dritare e paletizuar i \u00EBsht\u00EB te klienti kalon vet\u00EB te Dor\u00EBzuar; kthimi dhe shkarkimi e sjellin n\u00EB sht\u00EBpi p\u00EBr kamionin tjet\u00EBr. \u00C7do hap ruhet.",
+          "Paketimet e aksesor\u00EBve hipin mbi palet\u00EB: te paletizimi, etiketa e nj\u00EB paketimi t\u00EB mbyllur e ngarkon at\u00EB mbi palet\u00EBn e zgjedhur, dhe pastaj udh\u00EBton n\u00EB flet\u00EB, shfaqet n\u00EB ProTrace dhe hapet nga kodi i vet.",
+          "Fleta e palet\u00EBs shtyp vizatimin e \u00E7do dritareje pran\u00EB rreshtit t\u00EB saj dhe liston paketimet posht\u00EB tyre; faqja e Paletave tregon t\u00EB nj\u00EBjt\u00EBn, me ku ndodhet \u00E7do palet\u00EB dhe udh\u00EBtimin e saj.",
+          "Dor\u00EBzimi mban regjistrin e vet: nj\u00EB periudh\u00EB (k\u00EBt\u00EB muaj, k\u00EBt\u00EB vit, vitin e kaluar, 12 muajt e fundit, gjith\u00E7ka, ose dy data me dor\u00EB), nj\u00EB k\u00EBrkim mbi prodhimet, klient\u00EBt dhe numrat e paletave, kat\u00EBr shifra sip\u00EBr, dhe paletat e dor\u00EBzuara t\u00EB listuara posht\u00EB prodhimeve.",
+          "Paraja e panelit u korrigjua: \u00E7mimi i nj\u00EB pozicioni \u00EBsht\u00EB p\u00EBr t\u00EB gjitha dritaret e tij, prandaj \u00E7do prodhim tani merr pjes\u00EBn e vet - \u00E7mimi p\u00EBr dritare shum\u00EBzuar me dritaret q\u00EB p\u00EBrfshin. Faqja prin me \u00E7mimin e prodhimit dhe shton \u00E7mimin e prodhimit p\u00EBr dritare; Shtyp... b\u00EBn nj\u00EB PDF A4 horizontal dhe Excel... nj\u00EB lib\u00EBr pune horizontal, t\u00EB dy me \u00E7do muaj, familje dhe artikull."
+        ],
+        "fr": [
+          "Scanner un code, en t\u00EAte de la barre de ProTrace : tout ce que ProSync a imprim\u00E9 ouvre ce \u00E0 quoi il appartient - l\u0027\u00E9tiquette d\u0027une pi\u00E8ce ouvre sa production avec cette fen\u00EAtre entour\u00E9e, si ancienne soit-elle ; la feuille d\u0027une palette ouvre la palette ; l\u0027\u00E9tiquette d\u0027un paquet ouvre le paquet ; un badge dit \u00E0 qui il est.",
+          "La palette voyage par ses cartes : EXP\u00C9DI\u00C9E, LIVR\u00C9E, RETOURN\u00C9E et D\u00C9CHARG\u00C9E se scannent, puis le code QR de la palette sur sa feuille. La livraison cl\u00F4t son trajet - et une production dont chaque fen\u00EAtre palettis\u00E9e est chez le client passe d\u0027elle-m\u00EAme \u00E0 Livr\u00E9e ; le retour et le d\u00E9chargement la ram\u00E8nent attendre le prochain camion. Chaque \u00E9tape est gard\u00E9e.",
+          "Les paquets d\u0027accessoires montent sur la palette : \u00E0 la palettisation, l\u0027\u00E9tiquette d\u0027un paquet ferm\u00E9 le charge sur la palette choisie, et il voyage ensuite sur la feuille, s\u0027affiche dans ProTrace et s\u0027ouvre par son propre code.",
+          "La feuille de la palette imprime le dessin de chaque fen\u00EAtre \u00E0 c\u00F4t\u00E9 de sa ligne et liste les paquets en dessous ; la page des Palettes montre la m\u00EAme chose, avec o\u00F9 se trouve chaque palette et son trajet.",
+          "Livr\u00E9 garde son registre : une p\u00E9riode (ce mois-ci, cette ann\u00E9e, l\u0027an dernier, les 12 derniers mois, tout, ou deux dates \u00E0 la main), une recherche sur les productions, les clients et les num\u00E9ros de palettes, quatre chiffres au-dessus, et les palettes livr\u00E9es list\u00E9es sous les productions.",
+          "L\u0027argent du tableau de bord est corrig\u00E9 : le prix d\u0027une position vaut pour toutes ses fen\u00EAtres, donc chaque production prend d\u00E9sormais sa part - le prix par fen\u00EAtre multipli\u00E9 par les fen\u00EAtres qu\u0027elle inclut. La page m\u00E8ne avec le prix de production et ajoute le prix de production par fen\u00EAtre ; Imprimer... fait un PDF A4 paysage et Excel... un classeur paysage, tous deux avec chaque mois, famille et article."
+        ]
+      }
+    },
+    {
+      "version": "1.24.0",
+      "date": "2026-10-23T00:00:00",
+      "lines": {
+        "en": [
+          "What the saw cuts is a setting now: in ProTrace \u003E Sent to the machine, \u0027The saw\u2026\u0027 takes the blade\u0027s angle range - the Kaban swings 30\u00B0 to 150\u00B0 - and a checklist of forms it cannot cut, the round windows (CIRC) first; other form codes can be added, and one unticked is explicitly allowed.",
+          "A piece outside the range or of a ticked form is skipped in the machine\u0027s file and confirmed by hand at the stations - the cutting list marks it amber, as ever. The rule is shared by every PC that sends to the machine and cached in kaban.json for offline; until it is set, each PC\u0027s own settings decide as before (angles 45 and 90, arches by hand)."
+        ],
+        "sq": [
+          "\u00C7far\u00EB pret sharra tani \u00EBsht\u00EB cil\u00EBsim: n\u00EB ProTrace \u003E D\u00EBrguar te makina, \u0027Sharra\u2026\u0027 merr intervalin e k\u00EBndeve t\u00EB tehut - Kaban-i l\u00EBviz nga 30\u00B0 n\u00EB 150\u00B0 - dhe nj\u00EB list\u00EB formash q\u00EB s\u0027i pret dot, dritaret e rrumbullak\u00EBta (CIRC) s\u00EB pari; mund t\u00EB shtohen kode t\u00EB tjera formash, dhe nj\u00EB e hequr nga shenja lejohet shprehimisht.",
+          "Nj\u00EB cop\u00EB jasht\u00EB intervalit ose e nj\u00EB forme t\u00EB sh\u00EBnuar lihet jasht\u00EB skedarit t\u00EB makin\u00EBs dhe konfirmohet me dor\u00EB n\u00EB stacione - lista e prerjes e sh\u00EBnon me portokalli, si gjithmon\u00EB. Rregulli ndahet nga \u00E7do PC q\u00EB d\u00EBrgon te makina dhe ruhet n\u00EB kaban.json p\u00EBr offline; derisa t\u00EB caktohet, vendosin cil\u00EBsimet e secilit PC si m\u00EB par\u00EB (k\u00EBnde 45 dhe 90, harqet me dor\u00EB)."
+        ],
+        "fr": [
+          "Ce que coupe la scie est d\u00E9sormais un r\u00E9glage : dans ProTrace \u003E Envoy\u00E9 \u00E0 la machine, \u0027La scie\u2026\u0027 prend l\u0027intervalle d\u0027angles de la lame - la Kaban pivote de 30\u00B0 \u00E0 150\u00B0 - et une liste de formes qu\u0027elle ne peut pas couper, les fen\u00EAtres rondes (CIRC) d\u0027abord ; d\u0027autres codes de formes peuvent s\u0027ajouter, et une d\u00E9coch\u00E9e est explicitement permise.",
+          "Une pi\u00E8ce hors de l\u0027intervalle ou d\u0027une forme coch\u00E9e est laiss\u00E9e hors du fichier de la machine et confirm\u00E9e \u00E0 la main aux postes - la liste de coupe la marque en orange, comme toujours. La r\u00E8gle est partag\u00E9e par chaque PC qui envoie \u00E0 la machine et gard\u00E9e dans kaban.json pour le hors-ligne ; tant qu\u0027elle n\u0027est pas r\u00E9gl\u00E9e, les r\u00E9glages propres de chaque PC d\u00E9cident comme avant (angles 45 et 90, cintres \u00E0 la main)."
+        ]
+      }
+    },
+    {
+      "version": "1.23.0",
+      "date": "2026-10-23T00:00:00",
+      "lines": {
+        "en": [
+          "Each person is signed to their station (ProTrace \u003E Operators \u003E The station\u2026): their badge signs in only there - the wedding\u0027s man cannot scan himself in at the cleaning - offline too; with no station it signs in anywhere, as before.",
+          "The accessory package finished: scan any label and the production\u0027s own accessory list stands on the left with a tick per article - ticked in with Ramasoft\u0027s code, name and count, unticked out; the typed code stays for extras, in amber. The whole project scrolls on the right, every position with its drawing, the scanned one ringed. One box, one production.",
+          "The label redesigned: the number large, the QR beside it, the production, who and when, then count - code - name per line; drawn to scale so it prints the same on a 60 mm roll and an A4 test page.",
+          "In ProTrace the production window lists its Accessories packages: each box with its article list and the phone photos of the open box. The accessories\u0027 photos now live thirty days past the delivery, no longer ten.",
+          "A second A4 manual for the by-hand pieces: which pieces the machine skips, the BY HAND tile, the steps at the other saw and the other welder, and what UNDO takes back - ProTrace \u003E Stations \u003E The by-hand manual\u2026"
+        ],
+        "sq": [
+          "Secili person caktohet n\u00EB stacionin e vet (ProTrace \u003E Operator\u00EBt \u003E Stacioni\u2026): distinktivi i tij hyn vet\u00EBm aty - njeriu i montimit s\u0027mund t\u00EB skanohet te pastrimi - edhe offline; pa stacion hyn kudo, si m\u00EB par\u00EB.",
+          "Paketimi i aksesor\u00EBve i p\u00EBrfunduar: skanoni \u00E7far\u00EBdo etikete dhe lista e aksesor\u00EBve t\u00EB vet\u00EB prodhimit rri majtas me nj\u00EB shenj\u00EB p\u00EBr artikull - e sh\u00EBnuar hyn me kodin, emrin dhe sasin\u00EB e Ramasoft-it, e hequr del; kodi i shkruar mbetet p\u00EBr shtesat, me portokalli. Gjith\u00EB projekti rr\u00EBshqet djathtas, \u00E7do pozicion me vizatimin e vet, i skanuari i rrethuar. Nj\u00EB kuti, nj\u00EB prodhim.",
+          "Etiketa e ridizajnuar: numri i madh, QR-ja p\u00EBrbri, prodhimi, kush dhe kur, pastaj sasia - kodi - emri p\u00EBr rresht; e vizatuar n\u00EB shkall\u00EB q\u00EB t\u00EB shtypet nj\u00EBsoj n\u00EB rul 60 mm dhe n\u00EB flet\u00EB A4 prove.",
+          "N\u00EB ProTrace dritarja e prodhimit liston Paketimet e aksesor\u00EBve: \u00E7do kuti me list\u00EBn e artikujve dhe fotot e telefonit t\u00EB kutis\u00EB s\u00EB hapur. Fotot e aksesor\u00EBve tani jetojn\u00EB tridhjet\u00EB dit\u00EB pas dor\u00EBzimit, jo m\u00EB dhjet\u00EB.",
+          "Nj\u00EB manual i dyt\u00EB A4 p\u00EBr copat me dor\u00EB: cilat copa i l\u00EB makina, pllaka ME DOR\u00CB, hapat te sharra tjet\u00EBr dhe salduesja tjet\u00EBr, dhe \u00E7far\u00EB kthen ANULO - ProTrace \u003E Stacionet \u003E Manuali i pun\u00EBs me dor\u00EB\u2026"
+        ],
+        "fr": [
+          "Chaque personne est affect\u00E9e \u00E0 son poste (ProTrace \u003E Op\u00E9rateurs \u003E Le poste\u2026) : son badge ne se connecte que l\u00E0 - l\u0027homme de l\u0027assemblage ne peut pas se scanner \u00E0 l\u0027\u00E9bavurage - hors ligne aussi ; sans poste il se connecte partout, comme avant.",
+          "Le paquet d\u0027accessoires achev\u00E9 : scannez n\u0027importe quelle \u00E9tiquette et la liste d\u0027accessoires de la production se tient \u00E0 gauche avec une coche par article - coch\u00E9e elle entre avec le code, le nom et la quantit\u00E9 de Ramasoft, d\u00E9coch\u00E9e elle sort ; le code tap\u00E9 reste pour les extras, en orange. Tout le projet d\u00E9file \u00E0 droite, chaque position avec son dessin, la scann\u00E9e entour\u00E9e. Une bo\u00EEte, une production.",
+          "L\u0027\u00E9tiquette redessin\u00E9e : le num\u00E9ro en grand, le QR \u00E0 c\u00F4t\u00E9, la production, qui et quand, puis quantit\u00E9 - code - nom par ligne ; dessin\u00E9e \u00E0 l\u0027\u00E9chelle pour s\u0027imprimer pareil sur un rouleau de 60 mm et une page A4 d\u0027essai.",
+          "Dans ProTrace la fen\u00EAtre de production liste ses Paquets d\u0027accessoires : chaque bo\u00EEte avec sa liste d\u0027articles et les photos au t\u00E9l\u00E9phone de la bo\u00EEte ouverte. Les photos d\u0027accessoires vivent d\u00E9sormais trente jours apr\u00E8s la livraison, plus dix.",
+          "Un second manuel A4 pour les pi\u00E8ces \u00E0 la main : quelles pi\u00E8ces la machine laisse, la tuile \u00C0 LA MAIN, les \u00E9tapes \u00E0 l\u0027autre scie et l\u0027autre soudeuse, et ce qu\u0027ANNULER reprend - ProTrace \u003E Postes \u003E Le manuel du travail \u00E0 la main\u2026"
+        ]
+      }
+    },
+    {
+      "version": "1.22.0",
+      "date": "2026-10-22T00:00:00",
+      "lines": {
+        "en": [
+          "Kartela e klientit prints and exports: a PDF of the same rows with the TOTAL and the saldo, and an Excel with real dates and SUM formulas - two buttons beside the card.",
+          "The review shows the paper\u0027s pictures: each profile\u0027s section drawing beside its code (from Ramasoft\u0027s own Images), the colours in and out as bold swatches with their real shade and texture, and both views of every window - seen from inside and from outside - at the stations too.",
+          "The accessory box, hand-filled: the operator scans their badge and opens box KA-26-0001; articles go in by Ramasoft code and count; the box cannot close without the phone\u0027s photo of the open box, and then its label prints - the box\u0027s number as a QR code and every line - on the label printer, whose paper size is a station setting.",
+          "The operators\u0027 manual as an A4 PDF, in the screen\u0027s language: the badge, the screen\u0027s colours, every command card as printed, the phone\u0027s damage report step by step, and the box - ProTrace \u003E Stations."
+        ],
+        "sq": [
+          "Kartela e klientit shtypet dhe eksportohet: nj\u00EB PDF me t\u00EB nj\u00EBjtat rreshta me TOTALIN dhe saldon, dhe nj\u00EB Excel me data t\u00EB v\u00EBrteta e formula SUM - dy butona pran\u00EB kartel\u00EBs.",
+          "Pasqyrimi tregon figurat e letr\u00EBs: vizatimi i seksionit t\u00EB \u00E7do profili pran\u00EB kodit (nga Images t\u00EB vet\u00EB Ramasoft-it), ngjyrat brenda e jasht\u00EB si mostra t\u00EB theksuara me nuanc\u00EBn e v\u00EBrtet\u00EB dhe tekstur\u00EBn, dhe t\u00EB dyja pamjet e \u00E7do dritareje - par\u00EB nga brenda dhe nga jasht\u00EB - edhe n\u00EBp\u00EBr stacione.",
+          "Kutia e aksesor\u00EBve, e mbushur me dor\u00EB: operatori skanon distinktivin dhe hap kutin\u00EB KA-26-0001; artikujt hyjn\u00EB me kodin e Ramasoft-it dhe sasin\u00EB; kutia s\u0027mbyllet pa foton e telefonit t\u00EB kutis\u00EB s\u00EB hapur, dhe pastaj shtypet etiketa e saj - numri i kutis\u00EB si kod QR dhe \u00E7do rresht - n\u00EB printerin e etiketave, madh\u00EBsia e letr\u00EBs s\u00EB t\u00EB cilit \u00EBsht\u00EB cil\u00EBsim i stacionit.",
+          "Manuali i operator\u00EBve si PDF A4, n\u00EB gjuh\u00EBn e ekranit: distinktivi, ngjyrat e ekranit, \u00E7do kart\u00EB komande si\u00E7 shtypet, raportimi i d\u00EBmtimit nga telefoni hap pas hapi, dhe kutia - ProTrace \u003E Stacionet."
+        ],
+        "fr": [
+          "La fiche client s\u0027imprime et s\u0027exporte : un PDF des m\u00EAmes lignes avec le TOTAL et le solde, et un Excel aux vraies dates et formules SUM - deux boutons \u00E0 c\u00F4t\u00E9 de la fiche.",
+          "La revue montre les images du papier : le dessin de section de chaque profil \u00E0 c\u00F4t\u00E9 de son code (depuis les Images de Ramasoft m\u00EAme), les couleurs int\u00E9rieur et ext\u00E9rieur en \u00E9chantillons bien visibles avec la vraie teinte et la texture, et les deux vues de chaque fen\u00EAtre - vue de l\u0027int\u00E9rieur et de l\u0027ext\u00E9rieur - aux postes aussi.",
+          "La bo\u00EEte d\u0027accessoires, remplie \u00E0 la main : l\u0027op\u00E9rateur scanne son badge et ouvre la bo\u00EEte KA-26-0001 ; les articles entrent par code Ramasoft et quantit\u00E9 ; la bo\u00EEte ne se ferme pas sans la photo au t\u00E9l\u00E9phone de la bo\u00EEte ouverte, puis son \u00E9tiquette s\u0027imprime - le num\u00E9ro de la bo\u00EEte en code QR et chaque ligne - sur l\u0027imprimante \u00E0 \u00E9tiquettes, dont la taille du papier est un r\u00E9glage du poste.",
+          "Le manuel des op\u00E9rateurs en PDF A4, dans la langue de l\u0027\u00E9cran : le badge, les couleurs de l\u0027\u00E9cran, chaque carte de commande telle qu\u0027imprim\u00E9e, le signalement de d\u00E9g\u00E2t au t\u00E9l\u00E9phone pas \u00E0 pas, et la bo\u00EEte - ProTrace \u003E Postes."
+        ]
+      }
+    },
+    {
+      "version": "1.21.0",
+      "date": "2026-10-22T00:00:00",
+      "lines": {
+        "en": [
+          "The project review reads like the paper: colours in and out, the profile system, each profile\u0027s name beside its code, the glass, \u0027Type of fitting: RC2\u0027 in red - and the manager\u0027s PRODUCTION REMARK as a red band, shown too as a red strip across every station when a label of that position is scanned.",
+          "On the phone\u0027s damage page the label\u0027s number comes by camera: photograph the label\u0027s QR code and it fills itself - decoded on the station\u0027s PC, iPhone and Android alike, nothing installed. UNDO now redraws the cutting list at once.",
+          "Kartela e klientit like the hand-kept list: one row per document - number, date, status, total, paid, still owed - and a TOTAL row at the end; no article lines, no project column.",
+          "Clicking a position in ProTrace opens its EVIDENCE: every scan with the station, the piece and the operator\u0027s name - who cut, cleaned, fitted, hung, glazed and palletized what, problems and undos included; the drawing one button away. Work out of order counts: at the wedding a frame with a missing sash is set aside and every hung sash stays on the record."
+        ],
+        "sq": [
+          "Pasqyrimi i projektit lexohet si letra: ngjyrat brenda e jasht\u00EB, sistemi i profilit, emri i \u00E7do profili pran\u00EB kodit, xhami, \u0027Lloji i mekanizmave: RC2\u0027 me t\u00EB kuqe - dhe V\u00CBREJTJA P\u00CBR PRODHIMIN e menaxherit si shirit i kuq, e shfaqur edhe n\u00EBp\u00EBr \u00E7do stacion kur skanohet nj\u00EB etiket\u00EB e atij pozicioni.",
+          "N\u00EB faqen e d\u00EBmtimeve t\u00EB telefonit numri i etiket\u00EBs vjen me kamer\u00EB: fotografoni kodin QR t\u00EB etiket\u00EBs dhe plot\u00EBsohet vet\u00EB - deshifrohet n\u00EB PC-n\u00EB e stacionit, iPhone dhe Android nj\u00EBsoj, pa instaluar asgj\u00EB. UNDO tani e rivizaton list\u00EBn e prerjes menj\u00EBher\u00EB.",
+          "Kartela e klientit si lista e mbajtur me dor\u00EB: nj\u00EB rresht p\u00EBr dokument - numri, data, statusi, totali, paguar, ende detyrohet - dhe nj\u00EB rresht TOTALI n\u00EB fund; pa rreshta artikujsh, pa kolon\u00EB projekti.",
+          "Klikimi i nj\u00EB pozicioni n\u00EB ProTrace hap EVIDENC\u00CBN e tij: \u00E7do skanim me stacionin, cop\u00EBn dhe emrin e operatorit - kush preu, pastroi, montoi, vari, vendosi xhamin dhe paletizoi \u00E7far\u00EB, me problemet dhe kthimet; vizatimi nj\u00EB buton larg. Puna jasht\u00EB radhe llogaritet: te montimi nj\u00EB korniz\u00EB me krah q\u00EB mungon lihet m\u00EBnjan\u00EB dhe \u00E7do krah i varur mbetet n\u00EB regjist\u00EBr."
+        ],
+        "fr": [
+          "La revue du projet se lit comme le papier : couleurs int\u00E9rieur et ext\u00E9rieur, le syst\u00E8me de profils, le nom de chaque profil \u00E0 c\u00F4t\u00E9 de son code, le vitrage, \u0027Type de quincaillerie : RC2\u0027 en rouge - et la REMARQUE POUR LA PRODUCTION du chef en bandeau rouge, montr\u00E9e aussi en bande rouge sur chaque poste quand une \u00E9tiquette de cette position est scann\u00E9e.",
+          "Sur la page des d\u00E9g\u00E2ts du t\u00E9l\u00E9phone, le num\u00E9ro de l\u0027\u00E9tiquette vient par la cam\u00E9ra : photographiez le code QR de l\u0027\u00E9tiquette et il se remplit tout seul - d\u00E9cod\u00E9 sur le PC du poste, iPhone comme Android, rien \u00E0 installer. UNDO redessine d\u00E9sormais la liste de coupe aussit\u00F4t.",
+          "La fiche client comme la liste tenue \u00E0 la main : une ligne par document - num\u00E9ro, date, statut, total, pay\u00E9, reste d\u00FB - et une ligne TOTAL \u00E0 la fin ; pas de lignes d\u0027articles, pas de colonne projet.",
+          "Cliquer une position dans ProTrace ouvre sa TRA\u00C7ABILIT\u00C9 : chaque scan avec le poste, la pi\u00E8ce et le nom de l\u0027op\u00E9rateur - qui a coup\u00E9, nettoy\u00E9, ferr\u00E9, pos\u00E9, vitr\u00E9 et palettis\u00E9 quoi, probl\u00E8mes et reprises comprises ; le dessin \u00E0 un bouton. Le travail hors ordre compte : \u00E0 l\u0027assemblage un cadre \u00E0 l\u0027ouvrant manquant se met de c\u00F4t\u00E9 et chaque ouvrant pos\u00E9 reste au registre."
+        ]
+      }
+    },
+    {
+      "version": "1.20.0",
+      "date": "2026-10-22T00:00:00",
+      "lines": {
+        "en": [
+          "The project at the machine, position by position - the papers on screen: in the Kaban send window, \u0027The positions\u2026\u0027 shows each position\u0027s drawing, window, customer, and every piece with its profile, colour, length, angles and steel, the by-hand ones marked, before the file goes.",
+          "At the cutting station, \u0027The project\u2026\u0027 lists what went to the machine these last days: the operator picks the production the manager named and reads the same review from what the send recorded."
+        ],
+        "sq": [
+          "Projekti te makina, pozicion pas pozicioni - letrat n\u00EB ekran: n\u00EB dritaren e d\u00EBrgimit t\u00EB Kaban-it, \u0027Pozicionet\u2026\u0027 tregon vizatimin e \u00E7do pozicioni, dritaren, klientin, dhe \u00E7do cop\u00EB me profilin, ngjyr\u00EBn, gjat\u00EBsin\u00EB, k\u00EBndet dhe \u00E7elikun, ato me dor\u00EB t\u00EB sh\u00EBnuara, para se t\u00EB niset skedari.",
+          "N\u00EB stacionin e prerjes, \u0027Projekti\u2026\u0027 liston \u00E7far\u00EB shkoi te makina k\u00EBto dit\u00EBt e fundit: operatori zgjedh prodhimin q\u00EB tha menaxheri dhe lexon t\u00EB nj\u00EBjtin pasqyrim nga ajo q\u00EB regjistroi d\u00EBrgimi."
+        ],
+        "fr": [
+          "Le projet \u00E0 la machine, position par position - les papiers \u00E0 l\u0027\u00E9cran : dans la fen\u00EAtre d\u0027envoi Kaban, \u0027Les positions\u2026\u0027 montre le dessin de chaque position, la fen\u00EAtre, le client, et chaque pi\u00E8ce avec son profil, sa couleur, sa longueur, ses angles et son acier, celles \u00E0 la main marqu\u00E9es, avant le d\u00E9part du fichier.",
+          "Au poste de coupe, \u0027Le projet\u2026\u0027 liste ce qui est parti \u00E0 la machine ces derniers jours : l\u0027op\u00E9rateur choisit la production nomm\u00E9e par le chef et lit la m\u00EAme revue depuis ce que l\u0027envoi a enregistr\u00E9."
+        ]
+      }
+    },
+    {
+      "version": "1.19.0",
+      "date": "2026-10-22T00:00:00",
+      "lines": {
+        "en": [
+          "Kartela e klientit - ProFactura \u003E Client cards: every customer with what was asked, what came in, and the saldo they still owe; the card itself line by line - each proforma, each payment, each invoice that closed one - with the running saldo. One card per customer and currency.",
+          "Invoicing polished after a code review: a payment on a deleted proforma is refused in words instead of a database error, an erased proforma loses its PDF only once the erase is accepted, and an extra line\u0027s total follows the printed unit price.",
+          "The stations polished too: the camera watch never touches OneDrive\u0027s Camera Roll (a phone\u0027s backup lands there - its photos are never taken in or deleted), a photo that could not be saved is tried again, the offline queue flushes once at a time, the Close-the-pallet button waits for the scan in flight, a CLOSE card read twice closes nothing more, and UNDO at the assembly redraws the table."
+        ],
+        "sq": [
+          "Kartela e klientit - ProFactura \u003E Kartelat e klient\u00EBve: \u00E7do klient me at\u00EB q\u00EB iu k\u00EBrkua, \u00E7far\u00EB erdhi, dhe saldon\u00EB q\u00EB ende detyron; vet\u00EB kartela rresht pas rreshti - \u00E7do proform\u00EB, \u00E7do pages\u00EB, \u00E7do fatur\u00EB q\u00EB mbylli nj\u00EB t\u00EB till\u00EB - me saldon\u00EB rrjedh\u00EBse. Nj\u00EB kartel\u00EB p\u00EBr klient dhe monedh\u00EB.",
+          "Faturimi i l\u00EBmuar pas nj\u00EB rishikimi t\u00EB kodit: nj\u00EB pages\u00EB n\u00EB nj\u00EB proform\u00EB t\u00EB fshir\u00EB refuzohet me fjal\u00EB e jo me gabim baze, nj\u00EB proform\u00EB e fshir\u00EB p\u00EBrfundimisht e humb PDF-n\u00EB vet\u00EBm pasi pranohet fshirja, dhe totali i nj\u00EB rreshti shtes\u00EB ndjek \u00E7mimin e shtypur p\u00EBr nj\u00EBsi.",
+          "Edhe stacionet t\u00EB l\u00EBmuara: v\u00EBzhgimi i kamer\u00EBs nuk e prek kurr\u00EB Camera Roll-in e OneDrive (aty zbret kopja rezerv\u00EB e telefonit - fotot e tij nuk merren e as fshihen kurr\u00EB), nj\u00EB foto q\u00EB s\u0027u ruajt dot provohet s\u00EBrish, radha offline zbrazet nj\u00EB her\u00EB n\u00EB nj\u00EB koh\u00EB, butoni Mbyll palet\u00EBn pret skanimin n\u00EB rrug\u00EB, nj\u00EB kart\u00EB MBYLL e lexuar dy her\u00EB nuk mbyll asgj\u00EB m\u00EB shum\u00EB, dhe UNDO te montimi e rivizaton tryez\u00EBn."
+        ],
+        "fr": [
+          "Kartela e klientit - ProFactura \u003E Fiches clients : chaque client avec ce qui lui a \u00E9t\u00E9 demand\u00E9, ce qui est entr\u00E9, et le solde qu\u0027il doit encore ; la fiche elle-m\u00EAme ligne par ligne - chaque proforma, chaque paiement, chaque facture qui en a cl\u00F4tur\u00E9 une - avec le solde courant. Une fiche par client et par devise.",
+          "La facturation polie apr\u00E8s une revue du code : un paiement sur une proforma supprim\u00E9e est refus\u00E9 avec des mots et non une erreur de base, une proforma effac\u00E9e ne perd son PDF qu\u0027une fois l\u0027effacement accept\u00E9, et le total d\u0027une ligne suppl\u00E9mentaire suit le prix unitaire imprim\u00E9.",
+          "Les postes polis aussi : la veille cam\u00E9ra ne touche jamais au Camera Roll de OneDrive (la sauvegarde du t\u00E9l\u00E9phone y atterrit - ses photos ne sont jamais prises ni supprim\u00E9es), une photo non enregistr\u00E9e est retent\u00E9e, la file hors ligne se vide une fois \u00E0 la fois, le bouton Fermer la palette attend le scan en cours, une carte FERMER lue deux fois ne ferme rien de plus, et UNDO \u00E0 l\u0027assemblage redessine la table."
+        ]
+      }
+    },
+    {
+      "version": "1.18.0",
+      "date": "2026-10-22T00:00:00",
+      "lines": {
+        "en": [
+          "A damaged piece is reported from the operator\u0027s own phone: the station\u0027s QR code opens a page in the phone\u0027s browser - no app, no webcam - with the operator\u0027s name, the label\u0027s number, what is damaged, a word and the photo, which is required.",
+          "The report is recorded exactly as the station\u0027s problem card records it - once, the production postponed - and the e-mail now carries the photo and the operator\u0027s words. ProTrace \u003E Problems counts the photos and opens them large.",
+          "The photos are kept thirty days after the delivery is confirmed, then deleted on their own. Allow port 8471 inbound once in each station PC\u0027s firewall."
+        ],
+        "sq": [
+          "Nj\u00EB pjes\u00EB e d\u00EBmtuar raportohet nga telefoni i vet\u00EB operatorit: kodi QR i stacionit hap nj\u00EB faqe n\u00EB shfletuesin e telefonit - pa aplikacion, pa kamer\u00EB PC-je - me emrin e operatorit, numrin e etiket\u00EBs, \u00E7far\u00EB \u00EBsht\u00EB d\u00EBmtuar, nj\u00EB fjal\u00EB dhe foton, e cila \u00EBsht\u00EB e detyrueshme.",
+          "Raporti regjistrohet pik\u00EBrisht si\u00E7 e regjistron karta e problemit t\u00EB stacionit - nj\u00EB her\u00EB, prodhimi shtyhet - dhe e-maili tani mban foton dhe fjal\u00EBt e operatorit. ProTrace \u003E Problemet i num\u00EBron fotot dhe i hap t\u00EB m\u00EBdha.",
+          "Fotot ruhen tridhjet\u00EB dit\u00EB pasi konfirmohet dor\u00EBzimi, pastaj fshihen vet\u00EB. Lejoni port\u00EBn 8471 hyr\u00EBse nj\u00EB her\u00EB n\u00EB firewall-in e \u00E7do PC-je stacioni."
+        ],
+        "fr": [
+          "Une pi\u00E8ce ab\u00EEm\u00E9e se signale depuis le propre t\u00E9l\u00E9phone de l\u0027op\u00E9rateur : le code QR du poste ouvre une page dans le navigateur du t\u00E9l\u00E9phone - pas d\u0027application, pas de webcam - avec le nom de l\u0027op\u00E9rateur, le num\u00E9ro de l\u0027\u00E9tiquette, ce qui est ab\u00EEm\u00E9, un mot et la photo, obligatoire.",
+          "Le signalement s\u0027enregistre exactement comme la carte de probl\u00E8me du poste l\u0027enregistre - une fois, la production repouss\u00E9e - et l\u0027e-mail porte d\u00E9sormais la photo et les mots de l\u0027op\u00E9rateur. ProTrace \u003E Probl\u00E8mes compte les photos et les ouvre en grand.",
+          "Les photos sont gard\u00E9es trente jours apr\u00E8s la confirmation de la livraison, puis supprim\u00E9es d\u0027elles-m\u00EAmes. Laissez entrer le port 8471 une fois dans le pare-feu de chaque PC de poste."
+        ]
+      }
+    },
+    {
+      "version": "1.17.0",
+      "date": "2026-10-21T00:00:00",
+      "lines": {
+        "en": [
+          "The dashboard, for the general administrator alone: what the line made and delivered month by month, the days from creation to delivery, and the window families - with Ramasoft\u0027s cost and selling prices and the margin, where its price details can be read.",
+          "The hardware used over the period, counted across every window made, filtered as you type - and every chart told in your language, with the month under the pointer spelled out."
+        ],
+        "sq": [
+          "Paneli, vet\u00EBm p\u00EBr administratorin e p\u00EBrgjithsh\u00EBm: \u00E7far\u00EB prodhoi dhe dor\u00EBzoi linja muaj pas muaji, dit\u00EBt nga krijimi deri te dor\u00EBzimi, dhe familjet e dritareve - me \u00E7mimet e kostos dhe t\u00EB shitjes t\u00EB Ramasoft-it dhe marzhin, kur detajet e \u00E7mimeve mund t\u00EB lexohen.",
+          "Mekanizmat e p\u00EBrdorur gjat\u00EB periudh\u00EBs, t\u00EB num\u00EBruar p\u00EBr \u00E7do dritare t\u00EB prodhuar, t\u00EB filtruar nd\u00EBrsa shkruani - dhe \u00E7do grafik n\u00EB gjuh\u00EBn tuaj, me muajin n\u00EBn tregues t\u00EB shkruar qart\u00EB."
+        ],
+        "fr": [
+          "Le tableau de bord, pour le seul administrateur g\u00E9n\u00E9ral : ce que la ligne a produit et livr\u00E9 mois par mois, les jours de la cr\u00E9ation \u00E0 la livraison, et les familles de fen\u00EAtres - avec les prix de revient et de vente de Ramasoft et la marge, quand ses d\u00E9tails de prix peuvent \u00EAtre lus.",
+          "Le ferrage utilis\u00E9 sur la p\u00E9riode, compt\u00E9 sur chaque fen\u00EAtre produite, filtr\u00E9 au fil de la frappe - et chaque graphique dans votre langue, avec le mois sous le pointeur \u00E9crit en toutes lettres."
+        ]
+      }
+    },
+    {
+      "version": "1.16.0",
+      "date": "2026-10-21T00:00:00",
+      "lines": {
+        "en": [
+          "The cutting station shows the window\u0027s whole cutting list - profile codes, sides, lengths, angles, steel, green once cut - beside its picture: the papers are not printed any more.",
+          "The hardware station lists the sashes\u0027 hardware only, and says \u0027Type of fitting: RC2\u0027 where the window\u0027s parts name it.",
+          "The packing station packs the production\u0027s BOX of accessories: any label lists it by code, the open box is photographed first, then the A4 box ticket prints. A window counts as packed when it goes onto a pallet.",
+          "Several pallets open side by side at the palletization: the chosen one takes the scans, New pallet opens more, the CLOSE card closes only the chosen one. In Albanian, okova is now mekanizmat and kasa is korniza.",
+          "The workshop screen turns its pages by itself, every 8 seconds, all columns in step: twenty productions in a column are all seen - no more dead \u0027\u002B n more\u0027."
+        ],
+        "sq": [
+          "Stacioni i prerjes tregon gjith\u00EB list\u00EBn e prerjes s\u00EB dritares - kodet e profileve, an\u00EBt, gjat\u00EBsit\u00EB, k\u00EBndet, \u00E7eliku, jeshil sapo pritet - p\u00EBrbri fotos s\u00EB saj: letrat nuk shtypen m\u00EB.",
+          "Stacioni i mekanizmave liston vet\u00EBm mekanizmat e krah\u00EBve, dhe thot\u00EB \u0027Lloji i mekanizmave: RC2\u0027 kur pjes\u00EBt e dritares e em\u00EBrtojn\u00EB.",
+          "Stacioni i paketimit paketon KUTIN\u00CB e aksesor\u00EBve t\u00EB prodhimit: \u00E7do etiket\u00EB e liston me kod, kutia e hapur fotografohet s\u00EB pari, pastaj shtypet fleta A4 e kutis\u00EB. Nj\u00EB dritare llogaritet e paketuar kur vendoset mbi palet\u00EB.",
+          "Disa paleta t\u00EB hapura krah p\u00EBr krah te paletizimi: e zgjedhura merr skanimet, Palet\u00EB e re hap t\u00EB tjera, karta MBYLL mbyll vet\u00EBm t\u00EB zgjedhur\u00EBn. N\u00EB shqip, okova tani \u00EBsht\u00EB mekanizmat dhe kasa \u00EBsht\u00EB korniza.",
+          "Ekrani i punishtes i kthen faqet vet\u00EB, \u00E7do 8 sekonda, t\u00EB gjitha kolonat bashk\u00EB: nj\u00EBzet prodhime n\u00EB nj\u00EB kolon\u00EB shihen t\u00EB gjitha - jo m\u00EB \u0027\u002B n t\u00EB tjera\u0027 pa rrug\u00EBdalje."
+        ],
+        "fr": [
+          "Le poste de coupe montre toute la liste de coupe de la fen\u00EAtre - codes profils, c\u00F4t\u00E9s, longueurs, angles, acier, vert une fois coup\u00E9 - \u00E0 c\u00F4t\u00E9 de son image : les papiers ne s\u0027impriment plus.",
+          "Le poste de ferrage ne liste que la quincaillerie des ouvrants, et dit \u0027Type de quincaillerie : RC2\u0027 quand les pi\u00E8ces de la fen\u00EAtre le nomment.",
+          "Le poste d\u0027emballage emballe la BO\u00CETE d\u0027accessoires de la production : n\u0027importe quelle \u00E9tiquette la liste par code, la bo\u00EEte ouverte se photographie d\u0027abord, puis le ticket A4 s\u0027imprime. Une fen\u00EAtre compte comme emball\u00E9e quand elle va sur une palette.",
+          "Plusieurs palettes ouvertes c\u00F4te \u00E0 c\u00F4te \u00E0 la palettisation : la palette choisie re\u00E7oit les scans, Nouvelle palette en ouvre d\u0027autres, la carte FERMER ne ferme que la choisie.",
+          "L\u0027\u00E9cran d\u0027atelier tourne ses pages tout seul, toutes les 8 secondes, toutes les colonnes ensemble : vingt productions dans une colonne se voient toutes - fini le \u0027\u002B n de plus\u0027 sans suite."
+        ]
+      }
+    },
+    {
+      "version": "1.15.0",
+      "date": "2026-10-21T00:00:00",
+      "lines": {
+        "en": [
+          "The watch on Ramasoft: every open ProSync checks, hourly, everything it reads there - each column and its type, the permissions, how passwords are kept, and after a Ramasoft update the figures of issued proformas, read again. A change shows as a banner and goes once by e-mail; a column gone stops only the part that reads it.",
+          "An administrator\u0027s emergency sign-in on a PC, for the day a Ramasoft update keeps passwords another way; the sign-in says that plainly instead of \u0027wrong password\u0027.",
+          "ProSync backs its database up before each schema upgrade, and warns while the nightly backup is missing - installer\\backup-prosync-database.sql sets that job up once."
+        ],
+        "sq": [
+          "V\u00EBzhgimi i Ramasoft-it: \u00E7do ProSync i hapur kontrollon, \u00E7do or\u00EB, gjith\u00E7ka q\u00EB lexon aty - \u00E7do kolon\u00EB dhe llojin e saj, lejet, si ruhen fjal\u00EBkalimet, dhe pas nj\u00EB p\u00EBrdit\u00EBsimi t\u00EB Ramasoft-it shifrat e proformave t\u00EB l\u00EBshuara, t\u00EB lexuara s\u00EBrish. Nj\u00EB ndryshim shfaqet si banderol\u00EB dhe shkon nj\u00EB her\u00EB me e-mail; nj\u00EB kolon\u00EB q\u00EB mungon ndalon vet\u00EBm pjes\u00EBn q\u00EB e lexon.",
+          "Hyrja e urgjenc\u00EBs e nj\u00EB administratori n\u00EB nj\u00EB PC, p\u00EBr dit\u00EBn kur nj\u00EB p\u00EBrdit\u00EBsim i Ramasoft-it i ruan fjal\u00EBkalimet ndryshe; hyrja e thot\u00EB k\u00EBt\u00EB qart\u00EB n\u00EB vend t\u00EB \u0027fjal\u00EBkalim i gabuar\u0027.",
+          "ProSync b\u00EBn kopje t\u00EB baz\u00EBs para \u00E7do p\u00EBrmir\u00EBsimi t\u00EB skem\u00EBs, dhe paralajm\u00EBron kur mungon kopja e nat\u00EBs - installer\\backup-prosync-database.sql e ngre at\u00EB pun\u00EB nj\u00EB her\u00EB."
+        ],
+        "fr": [
+          "La veille sur Ramasoft : chaque ProSync ouvert v\u00E9rifie, toutes les heures, tout ce qu\u0027il y lit - chaque colonne et son type, les permissions, comment les mots de passe sont gard\u00E9s, et apr\u00E8s une mise \u00E0 jour de Ramasoft les chiffres des proformas \u00E9mises, relus. Un changement s\u0027affiche en bandeau et part une fois par e-mail ; une colonne disparue n\u0027arr\u00EAte que la partie qui la lit.",
+          "La connexion d\u0027urgence d\u0027un administrateur sur un PC, pour le jour o\u00F9 une mise \u00E0 jour de Ramasoft garde les mots de passe autrement ; la connexion le dit clairement au lieu de \u0027mot de passe erron\u00E9\u0027.",
+          "ProSync copie sa base avant chaque mise \u00E0 niveau du sch\u00E9ma, et avertit tant que la sauvegarde nocturne manque - installer\\backup-prosync-database.sql met ce travail en place une fois."
+        ]
+      }
+    },
+    {
+      "version": "1.14.0",
+      "date": "2026-10-21T00:00:00",
+      "lines": {
+        "en": [
+          "Photos of the accessories: what goes into a production\u0027s box - handles, cylinders, water caps - photographed at the station after a label of the production, with the PC\u0027s camera or from files, or added in ProTrace.",
+          "Kept light (upright, 1600 pixels at most) and deleted on their own ten days after the production\u0027s delivery is confirmed."
+        ],
+        "sq": [
+          "Fotot e aksesor\u00EBve: \u00E7far\u00EB futet n\u00EB kutin\u00EB e nj\u00EB prodhimi - doreza, cilindra, kapak\u00EB drenazhi - fotografuar n\u00EB stacion pas nj\u00EB etikete t\u00EB prodhimit, me kamer\u00EBn e PC-s\u00EB ose nga skedar\u00EB, ose shtuar n\u00EB ProTrace.",
+          "Ruhen t\u00EB lehta (drejt, e shumta 1600 piksel) dhe fshihen vet\u00EB dhjet\u00EB dit\u00EB pasi konfirmohet dor\u00EBzimi i prodhimit."
+        ],
+        "fr": [
+          "Photos des accessoires : ce qui va dans la bo\u00EEte d\u0027une production - poign\u00E9es, cylindres, cache-busettes - photographi\u00E9 au poste apr\u00E8s une \u00E9tiquette de la production, avec la cam\u00E9ra du PC ou depuis des fichiers, ou ajout\u00E9 dans ProTrace.",
+          "Gard\u00E9es l\u00E9g\u00E8res (redress\u00E9es, 1600 pixels au plus) et supprim\u00E9es d\u0027elles-m\u00EAmes dix jours apr\u00E8s la confirmation de la livraison de la production."
+        ]
+      }
+    },
+    {
+      "version": "1.13.0",
+      "date": "2026-10-21T00:00:00",
+      "lines": {
+        "en": [
+          "The palletization station: each window\u0027s label as it goes onto the pallet - windows of any customers on one, numbered PA-26-0001. The CLOSE PALLET card closes it and the station prints its A4 sheet: the windows grouped by customer, with project, size and a QR code.",
+          "ProTrace \u003E Pallets lists them and prints each sheet again. A window on a pallet counts as packed.",
+          "The small window: on a PC the machine uses too - the corner cleaner\u0027s - FenFlow stays small above the machine\u0027s program, never taking its keyboard; the scanner on a COM port."
+        ],
+        "sq": [
+          "Stacioni i paletizimit: etiketa e \u00E7do dritareje kur vendoset mbi palet\u00EB - dritare t\u00EB \u00E7do klienti mbi nj\u00EB, me num\u00EBr PA-26-0001. Karta MBYLL PALET\u00CBN e mbyll dhe stacioni shtyp flet\u00EBn e saj A4: dritaret sipas klientit, me projektin, p\u00EBrmasat dhe nj\u00EB kod QR.",
+          "ProTrace \u003E Paletat i liston dhe shtyp s\u00EBrish \u00E7do flet\u00EB. Nj\u00EB dritare mbi palet\u00EB llogaritet e paketuar.",
+          "Dritarja e vog\u00EBl: n\u00EB nj\u00EB PC q\u00EB e p\u00EBrdor edhe makina - at\u00EB t\u00EB pastruesit t\u00EB qosheve - FenFlow mbetet i vog\u00EBl mbi programin e makin\u00EBs, pa ia marr\u00EB kurr\u00EB tastier\u00EBn; skaneri n\u00EB nj\u00EB port COM."
+        ],
+        "fr": [
+          "Le poste de palettisation : l\u0027\u00E9tiquette de chaque fen\u00EAtre pos\u00E9e sur la palette - des fen\u00EAtres de tous clients sur une m\u00EAme, num\u00E9rot\u00E9e PA-26-0001. La carte FERMER LA PALETTE la ferme et le poste imprime sa feuille A4 : les fen\u00EAtres par client, avec projet, dimensions et un code QR.",
+          "ProTrace \u003E Palettes les liste et r\u00E9imprime chaque feuille. Une fen\u00EAtre sur une palette compte comme emball\u00E9e.",
+          "La petite fen\u00EAtre : sur un PC que la machine utilise aussi - celui de la nettoyeuse d\u0027angles - FenFlow reste petit au-dessus du programme de la machine, sans jamais lui prendre le clavier ; le scanner sur un port COM."
+        ]
+      }
+    },
+    {
+      "version": "1.12.0",
+      "date": "2026-10-21T00:00:00",
+      "lines": {
+        "en": [
+          "The assembly station - the wedding of frame and sashes: a label of the frame on the table, then of each sash. A sash of another window is refused in red, WRONG SASH, with where it belongs; the last sash hung, the window is assembled.",
+          "A new stage, assembled, between the hardware and the glazing: in the bars, on the board and the TV, and in the percentage."
+        ],
+        "sq": [
+          "Stacioni i montimit - martesa e kas\u00EBs me krah\u00EBt: nj\u00EB etiket\u00EB e kas\u00EBs n\u00EB tavolin\u00EB, pastaj e \u00E7do krahu. Krahu i nj\u00EB dritareje tjet\u00EBr refuzohet me t\u00EB kuqe, KRAH I GABUAR, me vendin ku i p\u00EBrket; me krahun e fundit t\u00EB montuar, dritarja \u00EBsht\u00EB e montuar.",
+          "Nj\u00EB faz\u00EB e re, e montuar, nd\u00EBrmjet okovave dhe xhamave: te shiritat, te tabela dhe ekrani, dhe te p\u00EBrqindja."
+        ],
+        "fr": [
+          "Le poste de montage - le mariage du dormant et des ouvrants : une \u00E9tiquette du dormant sur la table, puis de chaque ouvrant. Un ouvrant d\u0027une autre fen\u00EAtre est refus\u00E9 en rouge, MAUVAIS OUVRANT, avec sa place ; le dernier ouvrant pos\u00E9, la fen\u00EAtre est mont\u00E9e.",
+          "Une nouvelle \u00E9tape, mont\u00E9e, entre le ferrage et le vitrage : dans les barres, sur le tableau et l\u0027\u00E9cran, et dans le pourcentage."
+        ]
+      }
+    },
+    {
+      "version": "1.11.0",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "Glass re-orders: a pane a station reports broken or missing is ordered again from the supplier its glass came from - its panes and its original order read from Ramasoft, the ones to re-order ticked, sent by e-mail with a PDF in the supplier\u0027s language, numbered GR-26-0001.",
+          "The supplier\u0027s address is asked once and remembered; what was sent is kept as it was sent."
+        ],
+        "sq": [
+          "Riporosit\u00EB e xhamave: nj\u00EB xham q\u00EB nj\u00EB stacion e raporton t\u00EB thyer ose q\u00EB mungon porositet s\u00EBrish te furnitori nga erdhi - xhamat dhe porosia fillestare lexohen nga Ramasoft, zgjidhen ato p\u00EBr riporosi, d\u00EBrgohen me e-mail me nj\u00EB PDF n\u00EB gjuh\u00EBn e furnitorit, me num\u00EBr GR-26-0001.",
+          "Adresa e furnitorit k\u00EBrkohet nj\u00EB her\u00EB dhe mbahet mend; \u00E7far\u00EB u d\u00EBrgua ruhet ashtu si\u00E7 u d\u00EBrgua."
+        ],
+        "fr": [
+          "Recommandes de vitrage : un vitrage qu\u0027un poste signale cass\u00E9 ou manquant est recommand\u00E9 au fournisseur d\u0027o\u00F9 il venait - ses vitrages et sa commande d\u0027origine lus dans Ramasoft, ceux \u00E0 recommander coch\u00E9s, envoy\u00E9s par e-mail avec un PDF dans la langue du fournisseur, num\u00E9rot\u00E9s GR-26-0001.",
+          "L\u0027adresse du fournisseur est demand\u00E9e une fois et retenue ; ce qui est envoy\u00E9 est gard\u00E9 tel qu\u0027envoy\u00E9."
+        ]
+      }
+    },
+    {
+      "version": "0.10.0",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "E-mails: each problem a station reports goes by e-mail to the addresses ProTrace \u003E E-mails names - what, where, when, who - with the window\u0027s picture, in the language chosen there.",
+          "The account\u0027s password stays on the PCs that send, encrypted for their Windows user, never in the database; any PC that keeps it sends what waits, once a minute, and a failure is tried again later. With Google, an app password."
+        ],
+        "sq": [
+          "E-mailet: \u00E7do problem q\u00EB raporton nj\u00EB stacion shkon me e-mail te adresat q\u00EB em\u00EBrton ProTrace \u003E E-mailet - \u00E7far\u00EB, ku, kur, kush - me figur\u00EBn e dritares, n\u00EB gjuh\u00EBn e zgjedhur aty.",
+          "Fjal\u00EBkalimi i llogaris\u00EB mbetet n\u00EB PC-t\u00EB q\u00EB d\u00EBrgojn\u00EB, i enkriptuar p\u00EBr p\u00EBrdoruesin e tyre t\u00EB Windows, kurr\u00EB n\u00EB baz\u00EBn e t\u00EB dh\u00EBnave; \u00E7do PC q\u00EB e ruan d\u00EBrgon \u00E7far\u00EB pret, nj\u00EB her\u00EB n\u00EB minut\u00EB, dhe nj\u00EB d\u00EBshtim provohet s\u00EBrish m\u00EB von\u00EB. Me Google, nj\u00EB fjal\u00EBkalim aplikacioni."
+        ],
+        "fr": [
+          "E-mails : chaque probl\u00E8me qu\u0027un poste signale part par e-mail aux adresses que nomme ProTrace \u003E E-mails - quoi, o\u00F9, quand, qui - avec l\u0027image de la fen\u00EAtre, dans la langue choisie l\u00E0.",
+          "Le mot de passe du compte reste sur les PC qui envoient, chiffr\u00E9 pour leur utilisateur Windows, jamais dans la base ; tout PC qui le garde envoie ce qui attend, une fois par minute, et un \u00E9chec est retent\u00E9 plus tard. Avec Google, un mot de passe d\u0027application."
+        ]
+      }
+    },
+    {
+      "version": "0.9.2",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "The hardware station lists the window scanned\u0027s hardware from Ramasoft, sash by sash: how many, the code, the name - handles first, accessories last. The glazing station lists its glass pane by pane: the size, the composition, the spacer and the glazing blocks.",
+          "Machining steps and seals, which Ramasoft keeps off its production list, are left out there too; a long list runs into a second column."
+        ],
+        "sq": [
+          "Stacioni i okovave rendit okovat e dritares s\u00EB skanuar nga Ramasoft, krah pas krahu: sa cop\u00EB, kodi, emri - dorezat s\u00EB pari, aksesor\u00EBt n\u00EB fund. Stacioni i xhamave rendit xhamat e saj nj\u00EB nga nj\u00EB: p\u00EBrmasat, p\u00EBrb\u00EBrjen, distancuesin dhe pykat e xhamit.",
+          "P\u00EBrpunimet dhe gominat, q\u00EB Ramasoft i l\u00EB jasht\u00EB list\u00EBs s\u00EB prodhimit, lihen jasht\u00EB edhe k\u00EBtu; nj\u00EB list\u00EB e gjat\u00EB vazhdon n\u00EB nj\u00EB kolon\u00EB t\u00EB dyt\u00EB."
+        ],
+        "fr": [
+          "Le poste de ferrage liste le ferrage de la fen\u00EAtre scann\u00E9e depuis Ramasoft, ouvrant par ouvrant : combien, le code, le nom - les poign\u00E9es d\u0027abord, les accessoires \u00E0 la fin. Le poste de vitrage liste son vitrage vitre par vitre : les dimensions, la composition, l\u0027intercalaire et les cales.",
+          "Les usinages et les joints, que Ramasoft laisse hors de sa liste de production, sont laiss\u00E9s de c\u00F4t\u00E9 ici aussi ; une longue liste se poursuit sur une deuxi\u00E8me colonne."
+        ]
+      }
+    },
+    {
+      "version": "0.9.1",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "The general administrator - Ramasoft\u0027s \u0027All\u0027 permission - can erase a deleted invoice for good, from the deleted documents or from its window. Its proforma goes with it, so that their phases are free again for a new proforma. Both numbers stay recorded and are never used again; the payments stay recorded on the erased proforma - record them again on the new one."
+        ],
+        "sq": [
+          "Administratori i p\u00EBrgjithsh\u00EBm - leja \u0027All\u0027 e Ramasoft - mund ta fshij\u00EB p\u00EBrgjithmon\u00EB nj\u00EB fatur\u00EB t\u00EB fshir\u00EB, nga dokumentet e fshira ose nga dritarja e saj. Proforma e saj fshihet bashk\u00EB me t\u00EB, q\u00EB fazat e tyre t\u00EB lirohen p\u00EBr nj\u00EB proform\u00EB t\u00EB re. T\u00EB dy numrat mbeten t\u00EB regjistruar dhe nuk p\u00EBrdoren m\u00EB kurr\u00EB; pagesat mbeten t\u00EB regjistruara te proforma e fshir\u00EB - regjistrojini s\u00EBrish te e reja."
+        ],
+        "fr": [
+          "L\u0027administrateur g\u00E9n\u00E9ral - la permission \u00AB All \u00BB de Ramasoft - peut effacer d\u00E9finitivement une facture supprim\u00E9e, depuis les documents supprim\u00E9s ou depuis sa fen\u00EAtre. Sa proforma part avec elle, et leurs phases redeviennent libres pour une nouvelle proforma. Les deux num\u00E9ros restent enregistr\u00E9s et ne seront jamais r\u00E9utilis\u00E9s ; les paiements restent enregistr\u00E9s sur la proforma effac\u00E9e - enregistrez-les \u00E0 nouveau sur la nouvelle."
+        ]
+      }
+    },
+    {
+      "version": "0.9.0",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "The rest of the line as FenFlow stations: hardware, glazing and packing, each scanning one label of a window - any of its labels. A window without a sash has no hardware. The last window glazed moves the production on to Produced by itself; the last packed, to Ready.",
+          "The stations that see whole windows show the window scanned, its picture beside the answer. On the board each card\u0027s second bar is the furthest stage it has come to - welded and cleaned, hardware, glazed, packed - in that stage\u0027s colour, and the card says how far it is all told, in percent, by the weights set on the Stations page.",
+          "A station can take a machine\u0027s files: each file in a folder named by a label\u0027s code, or with it on its first line, counts as that label scanned."
+        ],
+        "sq": [
+          "Pjesa tjet\u00EBr e linj\u00EBs si stacione FenFlow: okovat, xhamat dhe paketimi, secili skanon nj\u00EB etiket\u00EB t\u00EB nj\u00EB dritareje - cil\u00EBndo nga etiketat e saj. Dritarja pa krah nuk ka okova. Dritarja e fundit me xham e \u00E7on vet\u00EB prodhimin te Prodhuar; e fundit e paketuar, te Gati.",
+          "Stacionet q\u00EB shohin dritare t\u00EB plota tregojn\u00EB dritaren e skanuar, figur\u00EBn e saj pran\u00EB p\u00EBrgjigjes. N\u00EB tabel\u00EB shiriti i dyt\u00EB i \u00E7do karte \u00EBsht\u00EB faza m\u00EB e larg\u00EBt ku ka arritur - salduar e pastruar, okovat, xhamat, paketimi - me ngjyr\u00EBn e asaj faze, dhe karta tregon sa larg \u00EBsht\u00EB gjithsej, n\u00EB p\u00EBrqindje, sipas peshave t\u00EB vendosura te faqja Stacionet.",
+          "Nj\u00EB stacion mund t\u00EB marr\u00EB skedar\u00EBt e nj\u00EB makine: \u00E7do skedar n\u00EB nj\u00EB dosje i em\u00EBrtuar me kodin e nj\u00EB etikete, ose me t\u00EB n\u00EB rreshtin e par\u00EB, llogaritet si ajo etiket\u00EB e skanuar."
+        ],
+        "fr": [
+          "La suite de la ligne en postes FenFlow : ferrage, vitrage et emballage, chacun scannant une \u00E9tiquette d\u0027une fen\u00EAtre - n\u0027importe laquelle. Une fen\u00EAtre sans ouvrant n\u0027a pas de ferrage. La derni\u00E8re fen\u00EAtre vitr\u00E9e fait avancer la production \u00E0 Fabriqu\u00E9e d\u0027elle-m\u00EAme ; la derni\u00E8re emball\u00E9e, \u00E0 Pr\u00EAte.",
+          "Les postes qui voient des fen\u00EAtres enti\u00E8res montrent la fen\u00EAtre scann\u00E9e, son image \u00E0 c\u00F4t\u00E9 de la r\u00E9ponse. Sur le tableau, la deuxi\u00E8me barre de chaque carte est l\u0027\u00E9tape la plus avanc\u00E9e - soud\u00E9 et nettoy\u00E9, ferrage, vitrage, emballage - dans la couleur de cette \u00E9tape, et la carte dit o\u00F9 elle en est en tout, en pourcentage, selon les poids r\u00E9gl\u00E9s sur la page Postes.",
+          "Un poste peut recevoir les fichiers d\u0027une machine : chaque fichier d\u0027un dossier nomm\u00E9 par le code d\u0027une \u00E9tiquette, ou avec lui sur sa premi\u00E8re ligne, compte comme cette \u00E9tiquette scann\u00E9e."
+        ]
+      }
+    },
+    {
+      "version": "0.8.0",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "Problem cards at the stations: glass broken or missing, a panel damaged or missing, a profile, hardware, an accessory or a roller shutter missing - the card, then a label of the frame or sash. The problem is recorded on it and ProTrace postpones the production with it, in the station\u0027s name; UNDO takes it back. It is solved on ProTrace\u0027s new Problems page, or with the production resumed.",
+          "Badges for the workshop\u0027s people (ProTrace \u003E Operators, printed eight to a page): scanned at a station, what follows is recorded as theirs until the end of the day. A station can take labels only once someone signed in.",
+          "The Stations page shows the workshop as a map: each station, whether it is working, who is there, the production it scanned last with its bar, and what it did today. Operators counts each person\u0027s pieces and frames today and this week."
+        ],
+        "sq": [
+          "Karta problemesh n\u00EB stacione: xham i thyer ose q\u00EB mungon, panel i d\u00EBmtuar ose q\u00EB mungon, mungon profili, okovat, nj\u00EB aksesor ose roleta - karta, pastaj nj\u00EB etiket\u00EB e kas\u00EBs ose krahut. Problemi regjistrohet mbi t\u00EB dhe ProTrace e shtyn prodhimin me t\u00EB, n\u00EB em\u00EBr t\u00EB stacionit; ANULO e anulon. Zgjidhet te faqja e re Problemet e ProTrace, ose kur prodhimi rifillon.",
+          "Kartela p\u00EBr njer\u00EBzit e pun\u00EBtoris\u00EB (ProTrace \u003E Operator\u00EBt, tet\u00EB n\u00EB faqe): e skanuar n\u00EB stacion, \u00E7far\u00EB vjen pas regjistrohet si e tyre deri n\u00EB fund t\u00EB dit\u00EBs. Nj\u00EB stacion mund t\u00EB pranoj\u00EB etiketa vet\u00EBm pasi dikush t\u00EB jet\u00EB identifikuar.",
+          "Faqja Stacionet e tregon pun\u00EBtorin\u00EB si hart\u00EB: \u00E7do stacion, n\u00EBse punon, kush \u00EBsht\u00EB atje, prodhimi q\u00EB skanoi i fundit me shiritin e tij, dhe \u00E7far\u00EB b\u00EBri sot. Operator\u00EBt num\u00EBron cop\u00EBt dhe kasat e secilit sot dhe k\u00EBt\u00EB jav\u00EB."
+        ],
+        "fr": [
+          "Des cartes de probl\u00E8me aux postes : vitrage cass\u00E9 ou manquant, panneau ab\u00EEm\u00E9 ou manquant, profil\u00E9, quincaillerie, accessoire ou volet roulant manquant - la carte, puis une \u00E9tiquette du dormant ou de l\u0027ouvrant. Le probl\u00E8me y est enregistr\u00E9 et ProTrace reporte la production avec lui, au nom du poste ; ANNULER l\u0027annule. Il se r\u00E9sout sur la nouvelle page Probl\u00E8mes de ProTrace, ou avec la production reprise.",
+          "Des badges pour les gens de l\u0027atelier (ProTrace \u003E Op\u00E9rateurs, huit par page) : scann\u00E9 \u00E0 un poste, ce qui suit est enregistr\u00E9 \u00E0 leur nom jusqu\u0027\u00E0 la fin de la journ\u00E9e. Un poste peut n\u0027accepter les \u00E9tiquettes qu\u0027une fois quelqu\u0027un connect\u00E9.",
+          "La page Postes montre l\u0027atelier comme une carte : chaque poste, s\u0027il travaille, qui y est, la production qu\u0027il a scann\u00E9e en dernier avec sa barre, et ce qu\u0027il a fait aujourd\u0027hui. Op\u00E9rateurs compte les pi\u00E8ces et les cadres de chacun aujourd\u0027hui et cette semaine."
+        ]
+      }
+    },
+    {
+      "version": "0.7.1",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "Health bars, as in a game: each card of the board and of the workshop screens fills green as its production\u0027s pieces are cut, and blue as its frames and sashes are welded and cleaned - where a corner-cleaning station is registered.",
+          "In a production\u0027s window each position has its own bars under its picture, its pieces counted on them; the station shows the whole production\u0027s bar, then each position\u0027s."
+        ],
+        "sq": [
+          "Shirita jete, si n\u00EB loj\u00EB: \u00E7do kart\u00EB e tabel\u00EBs dhe e ekraneve t\u00EB pun\u00EBtoris\u00EB mbushet me t\u00EB gjelb\u00EBr sa priten cop\u00EBt e prodhimit t\u00EB saj, dhe me blu sa salduhen e pastrohen kasat dhe krah\u00EBt e saj - ku \u00EBsht\u00EB regjistruar nj\u00EB stacion i pastrimit t\u00EB qosheve.",
+          "N\u00EB dritaren e nj\u00EB prodhimi \u00E7do pozicion ka shiritat e vet n\u00EBn figur\u00EBn e tij, me cop\u00EBt e num\u00EBruara mbi to; stacioni tregon shiritin e gjith\u00EB prodhimit, pastaj at\u00EB t\u00EB \u00E7do pozicioni."
+        ],
+        "fr": [
+          "Des barres de vie, comme dans un jeu : chaque carte du tableau et des \u00E9crans de l\u0027atelier se remplit de vert \u00E0 mesure que les pi\u00E8ces de sa production sont coup\u00E9es, et de bleu \u00E0 mesure que ses dormants et ouvrants sont soud\u00E9s et nettoy\u00E9s - l\u00E0 o\u00F9 un poste de nettoyage d\u0027angles est enregistr\u00E9.",
+          "Dans la fen\u00EAtre d\u0027une production, chaque position a ses propres barres sous son image, ses pi\u00E8ces compt\u00E9es dessus ; le poste montre la barre de toute la production, puis celle de chaque position."
+        ]
+      }
+    },
+    {
+      "version": "0.7.0",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "FenFlow, the workshop\u0027s stations: a PC at the Kaban\u0027s outfeed scans each piece\u0027s label as it comes off the machine, a PC at the corner cleaner one label of each frame or sash. A label scanned twice is refused; the DAMAGED card puts a piece back to be cut again, the UNDO card takes back a scan. Set up in ProTrace \u003E Stations; a station opens from its icon without anyone signing in, and keeps its scans while the network is gone.",
+          "ProTrace shows each position\u0027s pieces cut and frames welded and cleaned, and moves a production on to Cut by itself once every piece is cut.",
+          "Pieces the Kaban cannot cut - arches, angles it does not do - are marked when the file is sent and confirmed by hand at the stations. Profile systems cut by hand (IDEAL 4000) can be named: a production of only those joins the queue when it is created.",
+          "The Kaban\u0027s station can receive the files sent to the machine by itself, into the folder the machine\u0027s program watches: no more copying them by hand."
+        ],
+        "sq": [
+          "FenFlow, stacionet e pun\u00EBtoris\u00EB: nj\u00EB PC te dalja e Kaban skanon etiket\u00EBn e \u00E7do cope kur del nga makina, nj\u00EB PC te pastruesi i qosheve nj\u00EB etiket\u00EB t\u00EB \u00E7do kase ose krahu. Nj\u00EB etiket\u00EB e skanuar dy her\u00EB refuzohet; karta E D\u00CBMTUAR e kthen cop\u00EBn p\u00EBr t\u0027u prer\u00EB s\u00EBrish, karta ANULO anulon nj\u00EB skanim. Vendoset te ProTrace \u003E Stacionet; nj\u00EB stacion hapet nga ikona e tij pa u identifikuar askush dhe i ruan skanimet kur rrjeti mungon.",
+          "ProTrace tregon cop\u00EBt e prera dhe kasat e salduara e t\u00EB pastruara t\u00EB \u00E7do pozicioni, dhe e \u00E7on vet\u00EB nj\u00EB prodhim te Prer\u00EB sapo t\u00EB priten t\u00EB gjitha cop\u00EBt.",
+          "Cop\u00EBt q\u00EB Kaban nuk i pret - harqe, k\u00EBnde q\u00EB nuk i b\u00EBn - sh\u00EBnohen kur d\u00EBrgohet skedari dhe konfirmohen me dor\u00EB n\u00EB stacione. Mund t\u00EB em\u00EBrohen sistemet e profileve q\u00EB priten me dor\u00EB (IDEAL 4000): nj\u00EB prodhim vet\u00EBm me to hyn n\u00EB radh\u00EB kur krijohet.",
+          "Stacioni i Kaban mund t\u0027i marr\u00EB vet\u00EB skedar\u00EBt e d\u00EBrguar n\u00EB makin\u00EB, n\u00EB dosjen q\u00EB ndjek programi i makin\u00EBs: mos i kopjoni m\u00EB me dor\u00EB."
+        ],
+        "fr": [
+          "FenFlow, les postes de l\u0027atelier : un PC \u00E0 la sortie de la Kaban scanne l\u0027\u00E9tiquette de chaque pi\u00E8ce qui sort de la machine, un PC \u00E0 la nettoyeuse d\u0027angles une \u00E9tiquette de chaque dormant ou ouvrant. Une \u00E9tiquette scann\u00E9e deux fois est refus\u00E9e ; la carte ENDOMMAG\u00C9E remet une pi\u00E8ce \u00E0 recouper, la carte ANNULER annule une lecture. Se r\u00E8gle dans ProTrace \u003E Postes ; un poste s\u0027ouvre par son ic\u00F4ne sans que personne ne se connecte, et garde ses lectures quand le r\u00E9seau manque.",
+          "ProTrace montre pour chaque position les pi\u00E8ces coup\u00E9es et les dormants soud\u00E9s et nettoy\u00E9s, et avance de lui-m\u00EAme une production \u00E0 D\u00E9coup\u00E9e d\u00E8s que toutes ses pi\u00E8ces sont coup\u00E9es.",
+          "Les pi\u00E8ces que la Kaban ne coupe pas - arcs, angles qu\u0027elle ne fait pas - sont marqu\u00E9es \u00E0 l\u0027envoi du fichier et confirm\u00E9es \u00E0 la main aux postes. Les syst\u00E8mes de profil\u00E9s coup\u00E9s \u00E0 la main (IDEAL 4000) peuvent \u00EAtre nomm\u00E9s : une production faite seulement de ceux-ci entre dans la file \u00E0 sa cr\u00E9ation.",
+          "Le poste de la Kaban peut recevoir de lui-m\u00EAme les fichiers envoy\u00E9s \u00E0 la machine, dans le dossier que surveille le programme de la machine : plus besoin de les copier \u00E0 la main."
+        ]
+      }
+    },
+    {
+      "version": "0.6.1",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "A production with nothing for the Kaban - roller shutters, mosquito nets, glass - joins ProTrace\u0027s queue when it is created, also once the queue starts at the machine: it never goes there.",
+          "The production papers\u0027 drawings, with their dimensions, come first again in a production\u0027s window; a picture exported for the machine shows only where none was printed, with the position\u0027s width and height around it.",
+          "The pictures of a production\u0027s second and third profile system (its _1 and _2 files) are found too: in ProTrace, and with the file on the Kaban\u0027s screen - the driver used before never found them."
+        ],
+        "sq": [
+          "Nj\u00EB prodhim q\u00EB nuk ka asgj\u00EB p\u00EBr Kaban - roleta, rrjeta kund\u00EBr insekteve, xhama - hyn n\u00EB radh\u00EBn e ProTrace kur krijohet, edhe kur radha fillon te makina: ai nuk shkon kurr\u00EB atje.",
+          "Vizatimet e letrave t\u00EB prodhimit, me dimensionet e tyre, vijn\u00EB s\u00EBrish t\u00EB parat n\u00EB dritaren e nj\u00EB prodhimi; nj\u00EB foto e eksportuar p\u00EBr makin\u00EBn shfaqet vet\u00EBm aty ku nuk u shtyp asnj\u00EB, me gjer\u00EBsin\u00EB dhe lart\u00EBsin\u00EB e pozicionit rreth saj.",
+          "Gjenden edhe fotot e sistemit t\u00EB dyt\u00EB dhe t\u00EB tret\u00EB t\u00EB profileve t\u00EB nj\u00EB prodhimi (skedar\u00EBt e tij _1 dhe _2): n\u00EB ProTrace dhe, me skedarin, n\u00EB ekranin e Kaban - drajveri i m\u00EBparsh\u00EBm nuk i gjente kurr\u00EB."
+        ],
+        "fr": [
+          "Une production qui n\u0027a rien pour la Kaban - volets roulants, moustiquaires, vitrages - entre dans la file d\u0027attente de ProTrace \u00E0 sa cr\u00E9ation, m\u00EAme quand la file commence \u00E0 la machine : elle n\u0027y va jamais.",
+          "Les dessins des papiers de production, avec leurs cotes, reviennent en premier dans la fen\u00EAtre d\u0027une production ; une image export\u00E9e pour la machine n\u0027appara\u00EEt que l\u00E0 o\u00F9 aucun n\u0027a \u00E9t\u00E9 imprim\u00E9, avec la largeur et la hauteur de la position autour.",
+          "Les images du deuxi\u00E8me et du troisi\u00E8me syst\u00E8me de profil\u00E9s d\u0027une production (ses fichiers _1 et _2) sont trouv\u00E9es aussi : dans ProTrace, et avec le fichier sur l\u0027\u00E9cran de la Kaban - l\u0027ancien pilote ne les trouvait jamais."
+        ]
+      }
+    },
+    {
+      "version": "0.6.0",
+      "date": "2026-10-20T00:00:00",
+      "lines": {
+        "en": [
+          "Each file the Kaban ZC2010 driver sends to the machine is recorded in ProSync\u0027s database: the production, who sent it from which PC and when, every piece with the 12 digits of its label\u0027s second barcode - what FenFlow\u0027s stations will scan - and the positions\u0027 pictures. The machine has its file first: if the database cannot be reached, the window says the file is not recorded in ProTrace, and what to do.",
+          "ProTrace can start its queue when a production\u0027s file is sent to the machine, instead of when it is created in Ramasoft (ProTrace \u003E Sent to the machine \u003E Start the queue at the machine): a production made only to try something never shows, and one sent again keeps its place. Turn it on once the production manager\u0027s CAM Driver line starts ProSync\u0027s driver.",
+          "A production\u0027s window shows when its file went to the machine, each sending in its history, and the pictures the CAM Driver exported with it; the Excel list has the day each production was first sent to the machine."
+        ],
+        "sq": [
+          "\u00C7do skedar q\u00EB drajveri Kaban ZC2010 d\u00EBrgon n\u00EB makin\u00EB regjistrohet n\u00EB baz\u00EBn e t\u00EB dh\u00EBnave t\u00EB ProSync: prodhimi, kush e d\u00EBrgoi nga cili PC dhe kur, \u00E7do cop\u00EB me 12 shifrat e barkodit t\u00EB dyt\u00EB t\u00EB etiket\u00EBs - \u00E7ka do t\u00EB skanojn\u00EB stacionet e FenFlow - dhe fotot e pozicioneve. Makina e merr skedarin e vet e para: n\u00EBse baza e t\u00EB dh\u00EBnave nuk arrihet, dritarja thot\u00EB se skedari nuk u regjistrua n\u00EB ProTrace dhe \u00E7far\u00EB duhet b\u00EBr\u00EB.",
+          "ProTrace mund ta nis\u00EB radh\u00EBn kur skedari i nj\u00EB prodhimi d\u00EBrgohet n\u00EB makin\u00EB, n\u00EB vend q\u00EB ta nis\u00EB kur krijohet n\u00EB Ramasoft (ProTrace \u003E D\u00EBrguar n\u00EB makin\u00EB \u003E Nise radh\u00EBn te makina): nj\u00EB prodhim i b\u00EBr\u00EB vet\u00EBm p\u00EBr t\u00EB provuar di\u00E7ka nuk shfaqet kurr\u00EB, dhe ai i d\u00EBrguar s\u00EBrish e mban vendin. Aktivizojeni sapo rreshti i CAM Driver i p\u00EBrgjegj\u00EBsit t\u00EB prodhimit t\u00EB nis\u00EB drajverin e ProSync.",
+          "Dritarja e nj\u00EB prodhimi tregon kur shkoi skedari i tij n\u00EB makin\u00EB, \u00E7do d\u00EBrgim n\u00EB historikun e tij dhe fotot q\u00EB CAM Driver eksportoi me t\u00EB; lista n\u00EB Excel ka dit\u00EBn kur \u00E7do prodhim u d\u00EBrgua p\u00EBr her\u00EB t\u00EB par\u00EB n\u00EB makin\u00EB."
+        ],
+        "fr": [
+          "Chaque fichier que le pilote Kaban ZC2010 envoie \u00E0 la machine est enregistr\u00E9 dans la base de donn\u00E9es de ProSync : la production, qui l\u0027a envoy\u00E9 depuis quel PC et quand, chaque pi\u00E8ce avec les 12 chiffres du second code-barres de son \u00E9tiquette - ce que scanneront les postes de FenFlow - et les images des positions. La machine re\u00E7oit d\u0027abord son fichier : si la base de donn\u00E9es est injoignable, la fen\u00EAtre indique que le fichier n\u0027est pas enregistr\u00E9 dans ProTrace, et quoi faire.",
+          "ProTrace peut faire commencer sa file d\u0027attente \u00E0 l\u0027envoi du fichier d\u0027une production \u00E0 la machine, au lieu de sa cr\u00E9ation dans Ramasoft (ProTrace \u003E Envoi \u00E0 la machine \u003E Faire commencer la file \u00E0 la machine) : une production faite seulement pour essayer quelque chose n\u0027appara\u00EEt jamais, et une production renvoy\u00E9e garde sa place. \u00C0 activer d\u00E8s que la ligne CAM Driver du responsable de production lance le pilote de ProSync.",
+          "La fen\u00EAtre d\u0027une production montre quand son fichier est parti \u00E0 la machine, chaque envoi dans son historique, et les images que le CAM Driver a export\u00E9es avec elle ; la liste Excel indique le jour du premier envoi de chaque production \u00E0 la machine."
+        ]
+      }
+    },
+    {
+      "version": "0.5.2",
+      "date": "2026-10-19T00:00:00",
+      "lines": {
+        "en": [
+          "The Kaban ZC2010 driver sends only the export it opened on. A file of the same production left from an earlier export, or the same production written a second time under another name by a second CAM Driver line, is left out and named in the window: the old driver added them to the machine\u0027s file, so their pieces could be cut twice.",
+          "Machinings carrying options after a \u0027|\u0027 - a CAM Driver line set up with macro options - stop the file being sent: the Kaban refuses them.",
+          "pilotageProSyncKaban.bat is installed read-only, so a CAM Driver line given it as its configuration file can no longer write its settings into it."
+        ],
+        "sq": [
+          "Drajveri Kaban ZC2010 d\u00EBrgon vet\u00EBm eksportin mbi t\u00EB cilin u hap. Nj\u00EB skedar i t\u00EB nj\u00EBjtit prodhim i mbetur nga nj\u00EB eksport i m\u00EBparsh\u00EBm, ose i nj\u00EBjti prodhim i shkruar p\u00EBr her\u00EB t\u00EB dyt\u00EB me em\u00EBr tjet\u00EBr nga nj\u00EB rresht tjet\u00EBr CAM Driver, lihet jasht\u00EB dhe em\u00EBrohet n\u00EB dritare: drajveri i vjet\u00EBr i shtonte n\u00EB skedarin e makin\u00EBs, k\u00EBshtu q\u00EB copat e tyre mund t\u00EB priteshin dy her\u00EB.",
+          "P\u00EBrpunimet me opsione pas nj\u00EB \u0027|\u0027 - nj\u00EB rresht CAM Driver i vendosur me opsione makro - e ndalojn\u00EB d\u00EBrgimin e skedarit: Kaban nuk i pranon.",
+          "pilotageProSyncKaban.bat instalohet vet\u00EBm p\u00EBr lexim, k\u00EBshtu q\u00EB nj\u00EB rresht CAM Driver q\u00EB e merr si skedar konfigurimi nuk mund t\u00EB shkruaj\u00EB m\u00EB cil\u00EBsimet e veta n\u00EB t\u00EB."
+        ],
+        "fr": [
+          "Le pilote Kaban ZC2010 n\u0027envoie que l\u0027export sur lequel il s\u0027est ouvert. Un fichier de la m\u00EAme production rest\u00E9 d\u0027un export pr\u00E9c\u00E9dent, ou la m\u00EAme production \u00E9crite une seconde fois sous un autre nom par une seconde ligne CAM Driver, est laiss\u00E9 de c\u00F4t\u00E9 et nomm\u00E9 dans la fen\u00EAtre : l\u0027ancien pilote les ajoutait au fichier de la machine, et leurs pi\u00E8ces pouvaient \u00EAtre coup\u00E9es deux fois.",
+          "Des usinages portant des options apr\u00E8s un \u0027|\u0027 - une ligne CAM Driver r\u00E9gl\u00E9e avec les options de macro - emp\u00EAchent l\u0027envoi du fichier : la Kaban les refuse.",
+          "pilotageProSyncKaban.bat est install\u00E9 en lecture seule : une ligne CAM Driver qui le re\u00E7oit comme fichier de configuration ne peut plus y \u00E9crire ses param\u00E8tres."
+        ]
+      }
+    },
+    {
+      "version": "0.5.1",
+      "date": "2026-10-19T00:00:00",
+      "lines": {
+        "en": [
+          "The Kaban ZC2010 driver always opens: an export it cannot show, or a damaged picture, is said in its window instead of stopping it, and whatever goes wrong is shown on screen and kept in %TEMP%\\ProSync-kaban.log.",
+          "Started by Ramasoft after an export, its window comes in front of Ramasoft\u0027s."
+        ],
+        "sq": [
+          "Drajveri Kaban ZC2010 hapet gjithmon\u00EB: nj\u00EB eksport q\u00EB nuk e tregon dot, ose nj\u00EB foto e d\u00EBmtuar, thuhet n\u00EB dritaren e tij n\u00EB vend q\u00EB ta ndal\u00EB, dhe \u00E7do gabim tregohet n\u00EB ekran dhe ruhet n\u00EB %TEMP%\\ProSync-kaban.log.",
+          "I nisur nga Ramasoft pas nj\u00EB eksporti, dritarja e tij del p\u00EBrpara dritares s\u00EB Ramasoft."
+        ],
+        "fr": [
+          "Le pilote Kaban ZC2010 s\u0027ouvre toujours : un export qu\u0027il ne peut pas afficher, ou une image ab\u00EEm\u00E9e, est signal\u00E9 dans sa fen\u00EAtre au lieu de l\u0027arr\u00EAter, et toute erreur s\u0027affiche \u00E0 l\u0027\u00E9cran et est gard\u00E9e dans %TEMP%\\ProSync-kaban.log.",
+          "Lanc\u00E9e par Ramasoft apr\u00E8s un export, sa fen\u00EAtre passe devant celle de Ramasoft."
+        ]
+      }
+    },
+    {
+      "version": "0.5.0",
+      "date": "2026-10-19T00:00:00",
+      "lines": {
+        "en": [
+          "ProSync writes the Kaban ZC2010 cutting centre\u0027s files itself. Ramasoft\u0027s CAM Driver opens it after each export (the program pilotageProSyncKaban.bat beside ProSync): the production just exported comes up checked and drawn bar by bar, and one button sends it to the machine.",
+          "The machine gets exactly the file the old driver wrote - checked byte for byte on ten productions it sent - plus a second barcode in the label\u0027s field 18 (production, file and piece: 12 digits), and plain letters where the machine takes no accents.",
+          "It also reads the productions the old driver could not (a dash or a curly quote in their texts), and warns when a file of an earlier export is still beside the new one.",
+          "The first time, the old driver\u0027s settings are taken over. Until the CAM Driver\u0027s following program points at ProSync, nothing changes in the workshop."
+        ],
+        "sq": [
+          "ProSync i shkruan vet\u00EB skedar\u00EBt e qendr\u00EBs s\u00EB prerjes Kaban ZC2010. CAM Driver i Ramasoft e hap pas \u00E7do eksporti (programi pilotageProSyncKaban.bat pran\u00EB ProSync): prodhimi i sapoeksportuar shfaqet i kontrolluar dhe i vizatuar shuf\u00EBr p\u00EBr shuf\u00EBr, dhe nj\u00EB buton e d\u00EBrgon n\u00EB makin\u00EB.",
+          "Makina merr pik\u00EBrisht skedarin q\u00EB shkruante drajveri i vjet\u00EBr - kontrolluar bajt p\u00EBr bajt n\u00EB dhjet\u00EB prodhime q\u00EB ai d\u00EBrgoi - plus nj\u00EB barkod t\u00EB dyt\u00EB n\u00EB fush\u00EBn 18 t\u00EB etiket\u00EBs (prodhimi, skedari dhe copa: 12 shifra), dhe shkronja pa theks atje ku makina nuk i pranon.",
+          "Lexon edhe prodhimet q\u00EB drajveri i vjet\u00EBr nuk i lexonte dot (nj\u00EB viz\u00EB ose thonj\u00EBza t\u00EB lakuara n\u00EB tekstet e tyre), dhe paralajm\u00EBron kur pran\u00EB eksportit t\u00EB ri ka mbetur nj\u00EB skedar i nj\u00EB eksporti t\u00EB m\u00EBparsh\u00EBm.",
+          "Her\u00EBn e par\u00EB merren cil\u00EBsimet e drajverit t\u00EB vjet\u00EBr. Derisa programi pasues i CAM Driver t\u00EB tregoj\u00EB ProSync, n\u00EB pun\u00EBtori nuk ndryshon asgj\u00EB."
+        ],
+        "fr": [
+          "ProSync \u00E9crit lui-m\u00EAme les fichiers du centre de d\u00E9coupe Kaban ZC2010. Le CAM Driver de Ramasoft l\u0027ouvre apr\u00E8s chaque export (le programme pilotageProSyncKaban.bat \u00E0 c\u00F4t\u00E9 de ProSync) : la production tout juste export\u00E9e s\u0027affiche contr\u00F4l\u00E9e et dessin\u00E9e barre par barre, et un bouton l\u0027envoie \u00E0 la machine.",
+          "La machine re\u00E7oit exactement le fichier qu\u0027\u00E9crivait l\u0027ancien pilote - v\u00E9rifi\u00E9 octet par octet sur dix productions qu\u0027il a envoy\u00E9es - plus un second code-barres dans le champ 18 de l\u0027\u00E9tiquette (production, fichier et pi\u00E8ce : 12 chiffres), et des lettres sans accent l\u00E0 o\u00F9 la machine n\u0027en accepte pas.",
+          "Il lit aussi les productions que l\u0027ancien pilote ne pouvait pas lire (un tiret ou un guillemet typographique dans leurs textes), et avertit quand un fichier d\u0027un export pr\u00E9c\u00E9dent est rest\u00E9 \u00E0 c\u00F4t\u00E9 du nouveau.",
+          "La premi\u00E8re fois, les param\u00E8tres de l\u0027ancien pilote sont repris. Tant que le programme suivant du CAM Driver ne d\u00E9signe pas ProSync, rien ne change \u00E0 l\u0027atelier."
+        ]
+      }
+    },
+    {
+      "version": "0.4.3",
+      "date": "2026-10-18T00:00:00",
+      "lines": {
+        "en": [
+          "ProTrace shows each person only what is theirs. ROSH SHPK\u0027s people, Ramasoft\u0027s administrators and whoever has CanViewAllProduction see the whole line; a reseller\u0027s people see only their company\u0027s productions - its own projects and its orders with the manufacturer, recognised by the company\u0027s VAT number on the customer record. Someone Ramasoft links to no company sees nothing and is told why.",
+          "The production screen icon works only on a PC made a screen: someone who sees the whole line opens ProTrace \u003E Production screen on that PC once and answers Yes. Do this once on every workshop screen after the update.",
+          "ProTrace \u003E Excel...: the productions created in a period you choose - from one day to another - with where each stands and the day it reached every step.",
+          "The delivery note is in one language: the screen language of whoever prints it."
+        ],
+        "sq": [
+          "ProTrace i tregon secilit vet\u00EBm at\u00EB q\u00EB \u00EBsht\u00EB e tij. Njer\u00EBzit e ROSH SHPK, administrator\u00EBt e Ramasoft dhe kush ka CanViewAllProduction shohin gjith\u00EB linj\u00EBn; njer\u00EBzit e nj\u00EB rishit\u00EBsi shohin vet\u00EBm prodhimet e kompanis\u00EB s\u00EB tyre - projektet e veta dhe porosit\u00EB e saj te prodhuesi, t\u00EB njohura nga numri TVSH i kompanis\u00EB n\u00EB kartel\u00EBn e klientit. Kush nuk lidhet n\u00EB Ramasoft me asnj\u00EB kompani nuk sheh asgj\u00EB dhe i thuhet pse.",
+          "Ikona e ekranit t\u00EB prodhimit funksionon vet\u00EBm n\u00EB nj\u00EB kompjuter t\u00EB b\u00EBr\u00EB ekran: dikush q\u00EB e sheh gjith\u00EB linj\u00EBn hap nj\u00EB her\u00EB n\u00EB at\u00EB kompjuter ProTrace \u003E Ekrani i prodhimit dhe p\u00EBrgjigjet Po. B\u00EBjeni k\u00EBt\u00EB nj\u00EB her\u00EB n\u00EB \u00E7do ekran t\u00EB pun\u00EBtoris\u00EB pas p\u00EBrdit\u00EBsimit.",
+          "ProTrace \u003E Excel...: prodhimet e krijuara n\u00EB nj\u00EB periudh\u00EB q\u00EB zgjidhni - nga nj\u00EB dit\u00EB n\u00EB tjetr\u00EBn - me ku ndodhet secili dhe dit\u00EBn kur arriti \u00E7do hap.",
+          "Flet\u00EBdor\u00EBzimi \u00EBsht\u00EB n\u00EB nj\u00EB gjuh\u00EB: gjuha e ekranit t\u00EB atij q\u00EB e shtyp."
+        ],
+        "fr": [
+          "ProTrace ne montre \u00E0 chacun que ce qui est \u00E0 lui. Les personnes de ROSH SHPK, les administrateurs de Ramasoft et ceux qui ont CanViewAllProduction voient toute la ligne ; les personnes d\u0027un revendeur ne voient que les productions de leur soci\u00E9t\u00E9 - ses propres projets et ses commandes chez le fabricant, reconnues au num\u00E9ro de TVA de la soci\u00E9t\u00E9 sur la fiche client. Une personne que Ramasoft ne rattache \u00E0 aucune soci\u00E9t\u00E9 ne voit rien et en conna\u00EEt la raison.",
+          "L\u0027ic\u00F4ne de l\u0027\u00E9cran de production ne fonctionne que sur un PC devenu \u00E9cran : une personne qui voit toute la ligne ouvre une fois sur ce PC ProTrace \u003E \u00C9cran de production et r\u00E9pond Oui. Faites-le une fois sur chaque \u00E9cran de l\u0027atelier apr\u00E8s la mise \u00E0 jour.",
+          "ProTrace \u003E Excel... : les productions cr\u00E9\u00E9es pendant une p\u00E9riode choisie - d\u0027un jour \u00E0 un autre - avec o\u00F9 chacune en est et le jour o\u00F9 elle a atteint chaque \u00E9tape.",
+          "Le bon de livraison est en une seule langue : celle de l\u0027\u00E9cran de la personne qui l\u0027imprime."
+        ]
+      }
+    },
+    {
+      "version": "0.4.2",
+      "date": "2026-10-18T00:00:00",
+      "lines": {
+        "en": [
+          "The document window now shows its More button, bottom left beside PDF and Excel: Delivery note (PDF), Delete\u2026 and the related document are in it. Until now it stayed hidden on every document."
+        ],
+        "sq": [
+          "Dritarja e dokumentit tani e tregon butonin M\u00EB shum\u00EB, posht\u00EB majtas pran\u00EB PDF dhe Excel: aty jan\u00EB Flet\u00EBdor\u00EBzimi (PDF), Fshi\u2026 dhe dokumenti i lidhur. Deri tani ai mbetej i fshehur n\u00EB \u00E7do dokument."
+        ],
+        "fr": [
+          "La fen\u00EAtre du document affiche d\u00E9sormais son bouton Plus, en bas \u00E0 gauche \u00E0 c\u00F4t\u00E9 de PDF et Excel : Bon de livraison (PDF), Supprimer\u2026 et le document li\u00E9 s\u0027y trouvent. Jusqu\u0027ici il restait cach\u00E9 sur chaque document."
+        ]
+      }
+    },
+    {
+      "version": "0.4.1",
+      "date": "2026-10-18T00:00:00",
+      "lines": {
+        "en": [
+          "ProTrace: a production joins the queue the moment the production operator creates it in Ramasoft - nobody has to tick Valider any more. Check the board\u0027s start day (ProTrace \u003E Start date...): every production created since that day is on the board.",
+          "Every ProSync window opens filling the screen. Only the sign-in keeps its own size: framed all round, without a title bar - Exit is on the card, and the window moves by its blue.",
+          "Starting ProSync again while it is open brings its window back, filling the screen - also once a module is chosen, where it did not work before."
+        ],
+        "sq": [
+          "ProTrace: nj\u00EB prodhim hyn n\u00EB radh\u00EB n\u00EB \u00E7astin kur operatori i prodhimit e krijon n\u00EB Ramasoft - askush nuk ka m\u00EB nevoj\u00EB t\u00EB sh\u00EBnoj\u00EB Valider. Kontrolloni dat\u00EBn e fillimit t\u00EB tabel\u00EBs (ProTrace \u003E Data e fillimit...): \u00E7do prodhim i krijuar q\u00EB nga ajo dit\u00EB \u00EBsht\u00EB n\u00EB tabel\u00EB.",
+          "\u00C7do dritare e ProSync hapet n\u00EB gjith\u00EB ekranin. Vet\u00EBm hyrja ruan madh\u00EBsin\u00EB e vet: me korniz\u00EB rreth e qark, pa shirit titulli - Dil \u00EBsht\u00EB n\u00EB kart\u00EB, dhe dritarja l\u00EBviz duke e t\u00EBrhequr nga pjesa blu.",
+          "Kur ProSync niset s\u00EBrish nd\u00EBrsa \u00EBsht\u00EB i hapur, dritarja e tij kthehet n\u00EB gjith\u00EB ekranin - edhe pasi \u00EBsht\u00EB zgjedhur nj\u00EB modul, ku m\u00EB par\u00EB nuk funksiononte."
+        ],
+        "fr": [
+          "ProTrace : une production entre dans la file d\u0027attente d\u00E8s que l\u0027op\u00E9rateur de production la cr\u00E9e dans Ramasoft - plus besoin de cocher Valider. V\u00E9rifiez la date de d\u00E9but du tableau (ProTrace \u003E Date de d\u00E9but...) : toute production cr\u00E9\u00E9e depuis ce jour figure au tableau.",
+          "Chaque fen\u00EAtre de ProSync s\u0027ouvre en plein \u00E9cran. Seule la connexion garde sa taille : encadr\u00E9e tout autour, sans barre de titre - Quitter est sur la carte, et la fen\u00EAtre se d\u00E9place en tirant sur le bleu.",
+          "Relancer ProSync alors qu\u0027il est ouvert ram\u00E8ne sa fen\u00EAtre en plein \u00E9cran - aussi une fois un module choisi, o\u00F9 cela ne fonctionnait pas avant."
+        ]
+      }
+    },
+    {
+      "version": "0.4.0",
+      "date": "2026-10-18T00:00:00",
+      "lines": {
+        "en": [
+          "ProFactura prints the delivery note (bon de livraison) of any issued proforma or invoice: More \u003E Delivery note (PDF). The pieces without prices, the delivery address, the truck, and signature boxes for shipper, carrier and receiver.",
+          "One proforma for several projects of one customer, for the orders that leave on one truck: New proforma \u003E Add this project too. Each phase keeps its own project on the document.",
+          "A proforma of five phases or more could not be saved. Now it takes every project and phase of a full truck; a long list shows only its first entries in the header and \u0022\u2026 \u002BN\u0022 - every one appears with its phase below.",
+          "ProSync has an icon of its own: two arrows round a circle, on deep blue. The production screen\u0027s is a monitor on deep green.",
+          "The production screen fits any screen, up to a 4K television. \u002B and - on the keyboard show more or fewer cards per column; the choice is remembered on that PC.",
+          "Drawings: every ProSync database has a report login of its own, so the test database no longer undoes production\u0027s. Set the report up again (ProTrace \u003E Drawings) and paste the new lines.",
+          "The production board keeps refreshing when its window is not the one in front, and the choice of module keeps the sign-in alive."
+        ],
+        "sq": [
+          "ProFactura shtyp flet\u00EBdor\u00EBzimin e \u00E7do proforme ose fature t\u00EB l\u00EBshuar: M\u00EB shum\u00EB \u003E Flet\u00EBdor\u00EBzimi (PDF). Copat pa \u00E7mime, adresa e dor\u00EBzimit, kamioni dhe kutit\u00EB e n\u00EBnshkrimit p\u00EBr d\u00EBrguesin, transportuesin dhe marr\u00EBsin.",
+          "Nj\u00EB proform\u00EB p\u00EBr disa projekte t\u00EB nj\u00EB klienti, p\u00EBr porosit\u00EB q\u00EB nisen me nj\u00EB kamion: Proform\u00EB e re \u003E Shto edhe k\u00EBt\u00EB projekt. \u00C7do faz\u00EB e ruan projektin e vet n\u00EB dokument.",
+          "Nj\u00EB proform\u00EB me pes\u00EB faza ose m\u00EB shum\u00EB nuk ruhej dot. Tani merr \u00E7do projekt dhe faz\u00EB t\u00EB nj\u00EB kamioni t\u00EB plot\u00EB; nj\u00EB list\u00EB e gjat\u00EB tregon n\u00EB krye vet\u00EBm t\u00EB parat dhe \u0022\u2026 \u002BN\u0022 - t\u00EB gjitha shfaqen te fazat m\u00EB posht\u00EB.",
+          "ProSync ka ikon\u00EBn e vet: dy shigjeta rreth nj\u00EB rrethi, n\u00EB blu t\u00EB thell\u00EB. Ikona e ekranit t\u00EB prodhimit \u00EBsht\u00EB nj\u00EB monitor n\u00EB jeshile t\u00EB thell\u00EB.",
+          "Ekrani i prodhimit p\u00EBrshtatet me \u00E7do ekran, deri te nj\u00EB televizor 4K. \u002B dhe - n\u00EB tastier\u00EB tregojn\u00EB m\u00EB shum\u00EB ose m\u00EB pak karta p\u00EBr kolon\u00EB; zgjedhja mbahet mend n\u00EB at\u00EB kompjuter.",
+          "Vizatimet: \u00E7do baz\u00EB e ProSync ka hyrjen e vet p\u00EBr raportin, q\u00EB baza e testit t\u00EB mos e prish\u00EB m\u00EB at\u00EB t\u00EB prodhimit. P\u00EBrgatiteni s\u00EBrish raportin (ProTrace \u003E Vizatimet) dhe ngjitni rreshtat e rinj.",
+          "Tabela e prodhimit vazhdon t\u00EB rifreskohet kur dritarja e saj nuk \u00EBsht\u00EB p\u00EBrpara, dhe zgjedhja e modulit e mban hyrjen gjall\u00EB."
+        ],
+        "fr": [
+          "ProFactura imprime le bon de livraison de toute proforma ou facture \u00E9mise : Plus \u003E Bon de livraison (PDF). Les pi\u00E8ces sans prix, l\u0027adresse de livraison, le camion et les cases de signature de l\u0027exp\u00E9diteur, du transporteur et du destinataire.",
+          "Une proforma pour plusieurs projets d\u0027un m\u00EAme client, pour les commandes qui partent dans un m\u00EAme camion : Nouvelle proforma \u003E Ajouter ce projet aussi. Chaque phase garde son projet sur le document.",
+          "Une proforma de cinq phases ou plus ne pouvait pas \u00EAtre enregistr\u00E9e. Elle prend d\u00E9sormais chaque projet et chaque phase d\u0027un camion complet ; une longue liste n\u0027affiche en en-t\u00EAte que ses premi\u00E8res entr\u00E9es et \u00AB \u2026 \u002BN \u00BB - toutes figurent avec leur phase plus bas.",
+          "ProSync a sa propre ic\u00F4ne : deux fl\u00E8ches autour d\u0027un cercle, sur bleu profond. Celle de l\u0027\u00E9cran de production est un moniteur sur vert profond.",
+          "L\u0027\u00E9cran de production s\u0027adapte \u00E0 tout \u00E9cran, jusqu\u0027\u00E0 un t\u00E9l\u00E9viseur 4K. \u002B et - au clavier montrent plus ou moins de cartes par colonne ; le choix est gard\u00E9 sur ce PC.",
+          "Dessins : chaque base ProSync a son propre login de rapport, pour que la base de test ne d\u00E9fasse plus celle de production. Pr\u00E9parez de nouveau le rapport (ProTrace \u003E Dessins) et collez les nouvelles lignes.",
+          "Le tableau de production continue de s\u0027actualiser quand sa fen\u00EAtre n\u0027est pas au premier plan, et le choix du module garde la connexion active."
+        ]
+      }
+    },
+    {
+      "version": "0.3.4",
+      "date": "2026-10-17T00:00:00",
+      "lines": {
+        "en": [
+          "The lines for the production papers report save the drawings the papers have just made, inside and outside, also when a whole production is printed. Set the report up again (ProTrace \u003E Drawings) and paste the new lines in place of the old."
+        ],
+        "sq": [
+          "Rreshtat p\u00EBr raportin e letrave t\u00EB prodhimit ruajn\u00EB vizatimet q\u00EB letrat sapo b\u00EBn\u00EB, nga brenda dhe nga jasht\u00EB, edhe kur shtypet nj\u00EB prodhim i t\u00EBr\u00EB. P\u00EBrgatiteni s\u00EBrish raportin (ProTrace \u003E Vizatimet) dhe ngjitni rreshtat e rinj n\u00EB vend t\u00EB t\u00EB vjet\u00EBrve."
+        ],
+        "fr": [
+          "Les lignes du rapport des papiers de production enregistrent les dessins que les papiers viennent de faire, vus de l\u0027int\u00E9rieur et de l\u0027ext\u00E9rieur, aussi quand une production enti\u00E8re est imprim\u00E9e. Pr\u00E9parez de nouveau le rapport (ProTrace \u003E Dessins) et collez les nouvelles lignes \u00E0 la place des anciennes."
+        ]
+      }
+    },
+    {
+      "version": "0.3.3",
+      "date": "2026-10-17T00:00:00",
+      "lines": {
+        "en": [
+          "A production showing ProTrace\u0027s sketches says why: the production papers report is not set up yet (ProTrace \u003E Drawings), or this production\u0027s papers have not been printed since. The note under the positions no longer runs out of the window."
+        ],
+        "sq": [
+          "Nj\u00EB prodhim q\u00EB tregon skicat e ProTrace thot\u00EB pse: raporti i letrave t\u00EB prodhimit nuk \u00EBsht\u00EB p\u00EBrgatitur ende (ProTrace \u003E Vizatimet), ose letrat e k\u00EBtij prodhimi nuk jan\u00EB shtypur q\u00EB at\u00EBher\u00EB. Sh\u00EBnimi n\u00EBn pozicionet nuk del m\u00EB jasht\u00EB dritares."
+        ],
+        "fr": [
+          "Une production qui montre les croquis de ProTrace dit pourquoi : le rapport des papiers de production n\u0027est pas encore pr\u00E9par\u00E9 (ProTrace \u003E Dessins), ou les papiers de cette production n\u0027ont pas \u00E9t\u00E9 imprim\u00E9s depuis. La note sous les positions ne sort plus de la fen\u00EAtre."
+        ]
+      }
+    },
+    {
+      "version": "0.3.2",
+      "date": "2026-10-17T00:00:00",
+      "lines": {
+        "en": [
+          "ProTrace shows Ramasoft\u0027s own drawing of each position, as the production papers printed it: the papers\u0027 report saves it into ProSync\u0027s database. A click shows it large, inside and outside. Positions not printed yet keep the sketch.",
+          "ProTrace \u003E Drawings sets the report up once: a login that may only save drawings, and the lines to paste at the end of the report\u0027s post-script."
+        ],
+        "sq": [
+          "ProTrace tregon vizatimin e vet\u00EB Ramasoft p\u00EBr \u00E7do pozicion, si\u00E7 e shtyp\u00EBn letrat e prodhimit: raporti i letrave e ruan n\u00EB baz\u00EBn e ProSync. Nj\u00EB klikim e tregon t\u00EB madh, nga brenda dhe nga jasht\u00EB. Pozicionet ende t\u00EB pashtypura mbajn\u00EB skic\u00EBn.",
+          "ProTrace \u003E Vizatimet e p\u00EBrgatit raportin nj\u00EB her\u00EB: nj\u00EB hyrje q\u00EB mund vet\u00EBm t\u00EB ruaj\u00EB vizatime, dhe rreshtat q\u00EB ngjiten n\u00EB fund t\u00EB post-skriptit t\u00EB raportit."
+        ],
+        "fr": [
+          "ProTrace montre le dessin Ramasoft de chaque position, tel que les papiers de production l\u0027ont imprim\u00E9 : le rapport des papiers l\u0027enregistre dans la base de ProSync. Un clic l\u0027agrandit, vu de l\u0027int\u00E9rieur et de l\u0027ext\u00E9rieur. Les positions pas encore imprim\u00E9es gardent le croquis.",
+          "ProTrace \u003E Dessins pr\u00E9pare le rapport une fois : un login qui peut seulement enregistrer des dessins, et les lignes \u00E0 coller \u00E0 la fin du post-script du rapport."
+        ]
+      }
+    },
+    {
+      "version": "0.3.1",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "\u0027Main menu\u0027 at the top of the sidebar goes back to the choice between ProFactura and ProTrace, instead of switching straight to the other module.",
+          "The production screen\u0027s shortcut has an icon of its own: a blue monitor showing the board.",
+          "The Cut step shows a saw blade.",
+          "The language is chosen on the sign-in with three buttons - English, Shqip, Fran\u00E7ais - instead of a list."
+        ],
+        "sq": [
+          "\u0027Menuja kryesore\u0027 n\u00EB krye t\u00EB shiritit an\u00EBsor kthen te zgjedhja midis ProFactura dhe ProTrace, n\u00EB vend q\u00EB t\u00EB kaloj\u00EB drejtp\u00EBrdrejt te moduli tjet\u00EBr.",
+          "Shkurtorja e ekranit t\u00EB prodhimit ka ikon\u00EBn e vet: nj\u00EB monitor blu q\u00EB tregon tabel\u00EBn.",
+          "Hapi Prer\u00EB tregon nj\u00EB disk sharre.",
+          "Gjuha zgjidhet n\u00EB hyrje me tre butona - English, Shqip, Fran\u00E7ais - n\u00EB vend t\u00EB nj\u00EB liste."
+        ],
+        "fr": [
+          "\u00AB Menu principal \u00BB, en haut de la barre lat\u00E9rale, ram\u00E8ne au choix entre ProFactura et ProTrace, au lieu de passer directement \u00E0 l\u0027autre module.",
+          "Le raccourci de l\u0027\u00E9cran de production a sa propre ic\u00F4ne : un moniteur bleu qui montre le tableau.",
+          "L\u0027\u00E9tape D\u00E9coup\u00E9e montre une lame de scie.",
+          "La langue se choisit \u00E0 la connexion avec trois boutons - English, Shqip, Fran\u00E7ais - au lieu d\u0027une liste."
+        ]
+      }
+    },
+    {
+      "version": "0.3.0",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "ProFactura is now ProSync, with two modules: ProFactura for proformas and invoices, and the new ProTrace for production. One sign-in for both, on a new blue window; whoever may use both chooses one, and switches in one click.",
+          "ProTrace shows Ramasoft\u0027s validated productions as a board - Queue, Cut, Produced, Ready - first in, first out, with the one to take next marked NEXT, urgent ones first, and a red column for those waiting for material, glass or a panel.",
+          "A production opens with its positions as sketches, its history and big buttons to move it on, for those Ramasoft allows to modify all productions. Ramasoft itself is only read.",
+          "\u0027ProSync - Production screen\u0027 shows the board full screen on the workshop\u0027s screens, without signing in, refreshed every 30 seconds."
+        ],
+        "sq": [
+          "ProFactura tani quhet ProSync, me dy module: ProFactura p\u00EBr proforma dhe fatura, dhe ProTrace i ri p\u00EBr prodhimin. Nj\u00EB hyrje e vetme p\u00EBr t\u00EB dyja, n\u00EB nj\u00EB dritare t\u00EB re blu; kush mund t\u0027i p\u00EBrdor\u00EB t\u00EB dyja zgjedh nj\u00EBr\u00EBn dhe kalon te tjetra me nj\u00EB klikim.",
+          "ProTrace tregon prodhimet e v\u00EBrtetuara n\u00EB Ramasoft si tabel\u00EB - N\u00EB radh\u00EB, Prer\u00EB, Prodhuar, Gati - i pari q\u00EB hyn, i pari q\u00EB del, me at\u00EB q\u00EB merret m\u00EB pas t\u00EB sh\u00EBnuar TJETRI, urgjentet p\u00EBrpara, dhe nj\u00EB kolon\u00EB t\u00EB kuqe p\u00EBr ato q\u00EB presin material, xham ose panel.",
+          "Nj\u00EB prodhim hapet me pozicionet si skica, historikun dhe butona t\u00EB m\u00EBdhenj p\u00EBr ta l\u00EBvizur m\u00EB tej, p\u00EBr ata q\u00EB Ramasoft i lejon t\u00EB ndryshojn\u00EB t\u00EB gjitha prodhimet. Ramasoft vet\u00EBm lexohet.",
+          "\u0027ProSync - Production screen\u0027 e tregon tabel\u00EBn n\u00EB ekran t\u00EB plot\u00EB n\u00EB ekranet e pun\u00EBtoris\u00EB, pa hyrje, e rifreskuar \u00E7do 30 sekonda."
+        ],
+        "fr": [
+          "ProFactura s\u0027appelle d\u00E9sormais ProSync, avec deux modules : ProFactura pour les proformas et les factures, et le nouveau ProTrace pour la production. Une seule connexion pour les deux, dans une nouvelle fen\u00EAtre bleue ; qui peut utiliser les deux en choisit un, et passe \u00E0 l\u0027autre d\u0027un clic.",
+          "ProTrace pr\u00E9sente les productions valid\u00E9es dans Ramasoft sous forme de tableau - En attente, D\u00E9coup\u00E9e, Fabriqu\u00E9e, Pr\u00EAte - premier entr\u00E9, premier sorti, celle \u00E0 prendre ensuite marqu\u00E9e SUIVANTE, les urgentes d\u0027abord, et une colonne rouge pour celles qui attendent un mat\u00E9riau, un vitrage ou un panneau.",
+          "Une production s\u0027ouvre avec ses positions en croquis, son historique et de grands boutons pour la faire avancer, pour ceux que Ramasoft autorise \u00E0 modifier toutes les productions. Ramasoft est seulement lu.",
+          "\u00AB ProSync - Production screen \u00BB affiche le tableau en plein \u00E9cran sur les \u00E9crans de l\u0027atelier, sans connexion, actualis\u00E9 toutes les 30 secondes."
+        ]
+      }
+    },
+    {
+      "version": "0.2.3",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "ProFactura opens once per Windows session: clicking the icon again brings the open window to the front.",
+          "A user can be signed in at one place only. Signing in elsewhere says where the user already is, and \u0027Sign in here instead\u0027 signs the other window out.",
+          "Updates are offered on every window ProFactura opens with - also when it cannot reach its database - and checked again every two hours."
+        ],
+        "sq": [
+          "ProFactura hapet vet\u00EBm nj\u00EB her\u00EB p\u00EBr \u00E7do seanc\u00EB t\u00EB Windows: nj\u00EB klikim tjet\u00EBr mbi ikon\u00EB sjell p\u00EBrpara dritaren e hapur.",
+          "Nj\u00EB p\u00EBrdorues mund t\u00EB jet\u00EB i lidhur vet\u00EBm n\u00EB nj\u00EB vend. Kur hyn diku tjet\u00EBr, tregohet ku \u00EBsht\u00EB tashm\u00EB, dhe \u0027Hyr k\u00EBtu n\u00EB vend t\u00EB saj\u0027 e shk\u00EBput dritaren tjet\u00EBr.",
+          "P\u00EBrdit\u00EBsimet ofrohen n\u00EB \u00E7do dritare me t\u00EB cil\u00EBn hapet ProFactura - edhe kur nuk arrin baz\u00EBn e t\u00EB dh\u00EBnave - dhe kontrollohen s\u00EBrish \u00E7do dy or\u00EB."
+        ],
+        "fr": [
+          "ProFactura ne s\u0027ouvre qu\u0027une fois par session Windows : un nouveau clic sur l\u0027ic\u00F4ne ram\u00E8ne la fen\u00EAtre ouverte au premier plan.",
+          "Un utilisateur ne peut \u00EAtre connect\u00E9 qu\u0027\u00E0 un seul endroit. En se connectant ailleurs, on voit o\u00F9 il est d\u00E9j\u00E0 connect\u00E9, et \u00AB Se connecter ici \u00E0 la place \u00BB d\u00E9connecte l\u0027autre fen\u00EAtre.",
+          "Les mises \u00E0 jour sont propos\u00E9es dans chaque fen\u00EAtre \u00E0 l\u0027ouverture de ProFactura - m\u00EAme quand il n\u0027atteint pas sa base de donn\u00E9es - et v\u00E9rifi\u00E9es de nouveau toutes les deux heures."
+        ]
+      }
+    },
+    {
+      "version": "0.2.2",
+      "date": "2026-10-16T00:00:00",
+      "lines": {
+        "en": [
+          "The manufacturer now comes from Ramasoft: the company its workshop belongs to (Installation, Ateliers, Soci\u00E9t\u00E9 par d\u00E9faut). Its documents to customers abroad are export documents: two languages, DoP, origin declaration, truck plates."
+        ],
+        "sq": [
+          "Prodhuesi tani merret nga Ramasoft: kompania s\u00EB cil\u00EBs i p\u00EBrket pun\u00EBtoria (Installation, Ateliers, Soci\u00E9t\u00E9 par d\u00E9faut). Dokumentet e saj p\u00EBr klient\u00EBt jasht\u00EB vendit jan\u00EB dokumente eksporti: dy gjuh\u00EB, DoP, deklarata e origjin\u00EBs, targat e kamionit."
+        ],
+        "fr": [
+          "Le fabricant vient d\u00E9sormais de Ramasoft : la soci\u00E9t\u00E9 \u00E0 laquelle appartient son atelier (Installation, Ateliers, Soci\u00E9t\u00E9 par d\u00E9faut). Ses documents pour les clients \u00E0 l\u0027\u00E9tranger sont des documents d\u0027export : deux langues, DoP, d\u00E9claration d\u0027origine, plaques du camion."
+        ]
+      }
+    },
+    {
+      "version": "0.2.1",
+      "date": "2026-10-15T00:00:00",
+      "lines": {
+        "en": [
+          "A new look: New proforma step by step, a clear next step on every document, and \u0027Convert proforma to invoice\u0027 as its own window.",
+          "Extra lines: services and anything not in Ramasoft, until the first payment.",
+          "Export any document to Excel.",
+          "Swiss companies always invoice in CHF; branches (same VAT number) issue under their main company.",
+          "ProFactura now updates itself: a new version is offered when you sign in.",
+          "Correction of the language translation"
+        ],
+        "sq": [
+          "Pamje e re: proforma e re hap pas hapi, hapi i radh\u00EBs i qart\u00EB n\u00EB \u00E7do dokument, dhe \u0027Konverto proform\u00EBn n\u00EB fatur\u00EB\u0027 n\u00EB dritaren e vet.",
+          "Rreshta shtes\u00EB: sh\u00EBrbime dhe \u00E7do gj\u00EB q\u00EB nuk \u00EBsht\u00EB n\u00EB Ramasoft, deri n\u00EB pages\u00EBn e par\u00EB.",
+          "Eksporto \u00E7do dokument n\u00EB Excel.",
+          "Kompanit\u00EB zvicerane faturojn\u00EB gjithmon\u00EB n\u00EB CHF; deg\u00EBt (i nj\u00EBjti num\u00EBr TVSH) l\u00EBshojn\u00EB n\u00EBn kompanin\u00EB kryesore.",
+          "ProFactura tani p\u00EBrdit\u00EBsohet vet\u00EB: versioni i ri ofrohet kur hyni.",
+          "Korrigjimi i p\u00EBrkthimit t\u00EB gjuh\u00EBs"
+        ],
+        "fr": [
+          "Nouvelle pr\u00E9sentation : nouvelle proforma \u00E9tape par \u00E9tape, l\u0027\u00E9tape suivante bien visible sur chaque document, et \u00AB Convertir la proforma en facture \u00BB dans sa propre fen\u00EAtre.",
+          "Lignes suppl\u00E9mentaires : prestations et tout ce qui n\u0027est pas dans Ramasoft, jusqu\u0027au premier paiement.",
+          "Export de tout document vers Excel.",
+          "Les soci\u00E9t\u00E9s suisses facturent toujours en CHF ; les \u00E9tablissements (m\u00EAme num\u00E9ro de TVA) \u00E9mettent sous leur soci\u00E9t\u00E9 principale.",
+          "ProFactura se met d\u00E9sormais \u00E0 jour tout seul : la nouvelle version est propos\u00E9e \u00E0 la connexion.",
+          "Correction de la traduction"
+        ]
+      }
+    }
+  ],
+  "latestVersion": "1.30.0"
+}
